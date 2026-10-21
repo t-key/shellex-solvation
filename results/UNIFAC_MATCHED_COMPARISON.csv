@@ -1,0 +1,13 @@
+subset,method,method_key,curves,solutes,solute_balanced_MAE,curve_mean_MAE,CI95_low,CI95_high,unit,bootstrap_unit,bootstrap_replicates,bootstrap_seed,subset_restriction
+excluding_indomethacin148,UNIFAC original,UNIFAC_original,132,5,0.0753083783368898,0.0799943393936147,0.0369624966462725,0.128072382383775,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+excluding_indomethacin148,Direct COSMO,direct_COSMO,132,5,0.0524740338167936,0.0575475116454195,0.0341369166717493,0.074332817523319,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+excluding_indomethacin148,ShellEx,shellex,132,5,0.0792298345765792,0.0938726158005394,0.0351950973888594,0.143656254275361,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+excluding_indomethacin148,ShellEx (no fallback),shellex_no_fallback,132,5,0.0873088555373437,0.0769130484132981,0.0474946864280667,0.142002036102269,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+common132,UNIFAC original,UNIFAC_original,132,5,0.0753083783368898,0.0799943393936147,0.0369624966462725,0.128072382383775,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+common132,Direct COSMO,direct_COSMO,132,5,0.0524740338167936,0.0575475116454195,0.0341369166717493,0.074332817523319,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+common132,ShellEx,shellex,132,5,0.0792298345765792,0.0938726158005394,0.0351950973888594,0.143656254275361,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+common132,ShellEx (no fallback),shellex_no_fallback,132,5,0.0873088555373437,0.0769130484132981,0.0474946864280667,0.142002036102269,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+all151,UNIFAC original,UNIFAC_original,132,5,0.0753083783368898,0.0799943393936147,0.0369624966462725,0.128072382383775,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+all151,Direct COSMO,direct_COSMO,132,5,0.0524740338167936,0.0575475116454195,0.0341369166717493,0.074332817523319,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+all151,ShellEx,shellex,132,5,0.0792298345765792,0.0938726158005394,0.0351950973888594,0.143656254275361,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only
+all151,ShellEx (no fallback),shellex_no_fallback,132,5,0.0873088555373437,0.0769130484132981,0.0474946864280667,0.142002036102269,kcal/mol,solute,1000,20261014,UNIFAC-applicable curves only

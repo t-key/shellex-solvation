@@ -1,0 +1,9 @@
+group,method,teacher_comparator,pairs,Spearman,zero_intercept_slope,OLS_slope,OLS_intercept,interpretation
+all100,ShellEx,teacher_bonus,200,0.834694668907888,1.01405642099603,0.969130618373237,-0.0138874266721616,matched test solutes per pair; primary
+all100,ShellEx,teacher_full_bonus,200,0.827267657593411,1.32000167837203,1.13083770217888,-0.0428829966877122,full100/35 versus partial test solutes; descriptive only
+all100,ShellEx_raw,teacher_bonus,200,0.864200643353618,1.04568410216689,1.00671195803547,-0.0120470367202148,matched test solutes per pair; primary
+all100,ShellEx_raw,teacher_full_bonus,200,0.865307417738112,1.38600372576874,1.21493157071027,-0.038781626429979,full100/35 versus partial test solutes; descriptive only
+OSC35,ShellEx,teacher_bonus,200,0.853399097534703,0.957695877084074,0.852329675046039,-0.024538236701858,matched test solutes per pair; primary
+OSC35,ShellEx,teacher_full_bonus,200,0.852502479929331,0.982762978026446,0.871376999853523,-0.0251954521732923,full100/35 versus partial test solutes; descriptive only
+OSC35,ShellEx_raw,teacher_bonus,200,0.893558295769422,1.03033182378771,0.947159691410738,-0.0193695647350723,matched test solutes per pair; primary
+OSC35,ShellEx_raw,teacher_full_bonus,200,0.893252466863349,1.05969584883742,0.972251101723052,-0.0197799577636716,full100/35 versus partial test solutes; descriptive only

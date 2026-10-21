@@ -1,0 +1,32 @@
+{
+  "model_name": "ShellEx",
+  "heads": [
+    "models/shellex_head_seed13.pt",
+    "models/shellex_head_seed29.pt"
+  ],
+  "backbones": [
+    "models/backbone/backbone_seed13.pt",
+    "models/backbone/backbone_seed29.pt"
+  ],
+  "gates": "models/gates.json",
+  "pair_coefficients": "models/pair_coefficients.json",
+  "cache": "results/prediction_cache",
+  "x_A": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.65,
+    0.8,
+    0.9,
+    0.95,
+    1
+  ],
+  "temperature_K": 298.15,
+  "poses": 16,
+  "cpu_threads": 4,
+  "geometry_reproduction_tolerance": 2e-05,
+  "prediction_reproduction_tolerance_kcal_mol": 5e-05
+}

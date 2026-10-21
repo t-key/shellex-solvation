@@ -1,0 +1,11 @@
+molecule_id,name,role,seconds,threads
+MEAS_QM_02,tetrahydropyran,solvent,58.502688026,8
+MEAS_QM_03,2-methyl-1-butanol,solvent,70.792370644,8
+MEAS_QM_04,"1,4-dioxane",solvent,51.040513808,8
+MEAS_QM_05,2-methyl-1-pentanol,solvent,155.559315248,8
+MEAS_QM_06,4-methyl-2-pentanol,solvent,179.228767648,8
+MEAS_QM_07,propyl ethanoate,solvent,69.528475445,8
+MEAS_QM_08,10H-phenothiazine,solute,252.75078424,8
+MEAS_QM_09,phenanthrene,solute,130.37748698,8
+MEAS_QM_10,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indole-3-acetic acid,solute,4169.500549234,8
+MEAS_QM_01,"1,2-propanediol",solvent,93.307638345,8

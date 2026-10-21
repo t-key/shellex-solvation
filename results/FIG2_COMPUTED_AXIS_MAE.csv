@@ -1,0 +1,36 @@
+subset,method,method_key,curves,solutes,solute_balanced_MAE,curve_mean_MAE,CI95_low,CI95_high,unit,bootstrap_unit,bootstrap_replicates,bootstrap_seed,axis,axis_label,test_only
+new_structural,2D (frozen train9800),fingerprint_2d,120,6,0.203387065730619,0.203387065730619,0.0977057284209582,0.310451692376787,kcal/mol,solute,1000,20261014,pair,new structural families / pair,True
+new_structural,Pair mean (train10640; unseen=zero),pair_mean_train10640,120,6,0.202573974356059,0.202573974356059,0.102424565935349,0.303424657824902,kcal/mol,solute,1000,20261014,pair,new structural families / pair,True
+new_structural,ShellEx,shellex,120,6,0.160485487492976,0.160485487492976,0.0818378069464329,0.23945741420269,kcal/mol,solute,1000,20261014,pair,new structural families / pair,True
+new_structural,ShellEx (no fallback),shellex_no_fallback,120,6,0.154187917944098,0.154187917944098,0.0706131110207877,0.238247395255705,kcal/mol,solute,1000,20261014,pair,new structural families / pair,True
+new_structural,Zero excess,zero_excess,120,6,0.202573974356059,0.202573974356059,0.102424565935349,0.303424657824902,kcal/mol,solute,1000,20261014,pair,new structural families / pair,True
+new_structural,2D (frozen train9800),fingerprint_2d,120,6,0.120504659578991,0.120504659578991,0.0436340319077794,0.198592496580496,kcal/mol,solute,1000,20261014,unseen_solvent,new structural families / unseen_solvent,True
+new_structural,Pair mean (train10640; unseen=zero),pair_mean_train10640,120,6,0.126071319345567,0.126071319345567,0.0427815933573447,0.209452393218095,kcal/mol,solute,1000,20261014,unseen_solvent,new structural families / unseen_solvent,True
+new_structural,ShellEx,shellex,120,6,0.0879566313360526,0.0879566313360526,0.0339804912193127,0.141947579254685,kcal/mol,solute,1000,20261014,unseen_solvent,new structural families / unseen_solvent,True
+new_structural,ShellEx (no fallback),shellex_no_fallback,120,6,0.0611612369890521,0.0611612369890521,0.0211014290961917,0.101985975875844,kcal/mol,solute,1000,20261014,unseen_solvent,new structural families / unseen_solvent,True
+new_structural,Zero excess,zero_excess,120,6,0.126071319345567,0.126071319345567,0.0427815933573447,0.209452393218095,kcal/mol,solute,1000,20261014,unseen_solvent,new structural families / unseen_solvent,True
+original_calculated,2D (frozen train9800),fingerprint_2d,1000,30,0.151267811243461,0.132319050342192,0.112218369664688,0.194253913473163,kcal/mol,solute,1000,20261014,both,both,True
+original_calculated,Pair mean (train10640; unseen=zero),pair_mean_train10640,1000,30,0.14816313723326,0.130161872140532,0.110797124212804,0.189593370407353,kcal/mol,solute,1000,20261014,both,both,True
+original_calculated,ShellEx,shellex,1000,30,0.122290109233576,0.108803907511277,0.093299769541268,0.154980460826688,kcal/mol,solute,1000,20261014,both,both,True
+original_calculated,ShellEx (no fallback),shellex_no_fallback,1000,30,0.119506341655935,0.106338117173257,0.0906539768095071,0.152241782288406,kcal/mol,solute,1000,20261014,both,both,True
+original_calculated,Zero excess,zero_excess,1000,30,0.14816313723326,0.130161872140532,0.110797124212804,0.189593370407353,kcal/mol,solute,1000,20261014,both,both,True
+original_calculated,2D (frozen train9800),fingerprint_2d,2800,20,0.109499899510196,0.109499899510196,0.0941485365010442,0.12617786505131,kcal/mol,solute,1000,20261014,family,family,True
+original_calculated,Pair mean (train10640; unseen=zero),pair_mean_train10640,2800,20,0.0747741186586846,0.0747741186586846,0.0688469019783251,0.0809257905127951,kcal/mol,solute,1000,20261014,family,family,True
+original_calculated,ShellEx,shellex,2800,20,0.0499845724416775,0.0499845724416775,0.0401090045677832,0.060011746303177,kcal/mol,solute,1000,20261014,family,family,True
+original_calculated,ShellEx (no fallback),shellex_no_fallback,2800,20,0.048152171018245,0.0481521710182451,0.0380013302186513,0.0584583772156085,kcal/mol,solute,1000,20261014,family,family,True
+original_calculated,Zero excess,zero_excess,2800,20,0.110395210068477,0.110395210068477,0.0919071377576389,0.130697728620894,kcal/mol,solute,1000,20261014,family,family,True
+original_calculated,2D (frozen train9800),fingerprint_2d,1400,70,0.137075755573972,0.137075755573972,0.111841093241232,0.167435436874714,kcal/mol,solute,1000,20261014,pair,pair,True
+original_calculated,Pair mean (train10640; unseen=zero),pair_mean_train10640,1400,70,0.139640233055788,0.139640233055788,0.112272789696017,0.172596460611265,kcal/mol,solute,1000,20261014,pair,pair,True
+original_calculated,ShellEx,shellex,1400,70,0.109895846631004,0.109895846631004,0.0897929460534134,0.133947193399725,kcal/mol,solute,1000,20261014,pair,pair,True
+original_calculated,ShellEx (no fallback),shellex_no_fallback,1400,70,0.101695239122102,0.101695239122102,0.0818881503255982,0.12606819700631,kcal/mol,solute,1000,20261014,pair,pair,True
+original_calculated,Zero excess,zero_excess,1400,70,0.139640233055788,0.139640233055788,0.112272789696017,0.172596460611265,kcal/mol,solute,1000,20261014,pair,pair,True
+original_calculated,2D (frozen train9800),fingerprint_2d,2000,100,0.0827241150949248,0.0827241150949248,0.066095025077511,0.0987813107324872,kcal/mol,solute,1000,20261014,unseen_solvent,unseen_solvent,True
+original_calculated,Pair mean (train10640; unseen=zero),pair_mean_train10640,2000,100,0.0863978340705932,0.0863978340705931,0.0656405981605827,0.106300924285472,kcal/mol,solute,1000,20261014,unseen_solvent,unseen_solvent,True
+original_calculated,ShellEx,shellex,2000,100,0.064011209227424,0.064011209227424,0.051145882437652,0.0762499972207441,kcal/mol,solute,1000,20261014,unseen_solvent,unseen_solvent,True
+original_calculated,ShellEx (no fallback),shellex_no_fallback,2000,100,0.0439951863990092,0.0439951863990092,0.0338095849226244,0.0534030527464618,kcal/mol,solute,1000,20261014,unseen_solvent,unseen_solvent,True
+original_calculated,Zero excess,zero_excess,2000,100,0.0863978340705932,0.0863978340705931,0.0656405981605827,0.106300924285472,kcal/mol,solute,1000,20261014,unseen_solvent,unseen_solvent,True
+new_structural_all,2D (frozen train9800),fingerprint_2d,240,6,0.161945862654805,0.161945862654805,0.0710248936982213,0.254156783155307,kcal/mol,solute,1000,20261014,new_structure_family,new structural families (all 240 sealed curves),True
+new_structural_all,Pair mean (train10640; unseen=zero),pair_mean_train10640,240,6,0.164322646850813,0.164322646850813,0.0730340029133144,0.256648332469549,kcal/mol,solute,1000,20261014,new_structure_family,new structural families (all 240 sealed curves),True
+new_structural_all,ShellEx,shellex,240,6,0.124221059414515,0.124221059414515,0.0579091490828728,0.190643413025652,kcal/mol,solute,1000,20261014,new_structure_family,new structural families (all 240 sealed curves),True
+new_structural_all,ShellEx (no fallback),shellex_no_fallback,240,6,0.107674577466575,0.107674577466575,0.0458884650923123,0.169654937263103,kcal/mol,solute,1000,20261014,new_structure_family,new structural families (all 240 sealed curves),True
+new_structural_all,Zero excess,zero_excess,240,6,0.164322646850813,0.164322646850813,0.0730340029133144,0.256648332469549,kcal/mol,solute,1000,20261014,new_structure_family,new structural families (all 240 sealed curves),True

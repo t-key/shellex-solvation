@@ -1,0 +1,36 @@
+{
+  "initial_measured_registration": {
+    "recorded_UTC": "2026-10-14T05:48:50.322660+00:00",
+    "primary_curves": 151,
+    "scope": "151curves/nine solutes including indomethacin",
+    "sha256": "af1f6f82a90fe739b6cc615352a81adfedd5fe594bb0f13b00ce07745a89ba86"
+  },
+  "initial_scoring_completion": {
+    "recorded_UTC": "2026-10-14T07:03:46.266897+00:00",
+    "sha256": "15f5910bfa61c7991b7ff541232914c66efd40d31863396ac684446dabdf4ded"
+  },
+  "first_located_exclusion_definition": {
+    "UTC": "2026-10-14T07:21:17.473064+00:00",
+    "time_basis": "filesystem modification time, not an independently timestamped preregistration",
+    "artifact": "saved-results diagnostic script",
+    "sha256": "b092639f0cf10a0e0b226d0a5c885f790bfb5104afcc754227ea16081c45e394",
+    "criterion": "carboxylic-acid SMARTS C(=O)[O;H1] in the observed panel; matched three indomethacin curves"
+  },
+  "first_located_exclusion_output": {
+    "UTC": "2026-10-14T07:21:29.623071+00:00",
+    "time_basis": "filesystem modification time",
+    "artifact": "148curve diagnostic metric table",
+    "sha256": "e709ec5903a3c54c8ea70fe40c0ecf20a43d4181f0561d0f6d2f88a69c8908df"
+  },
+  "first_explicit_dated_followup_design": {
+    "recorded_UTC": "2026-10-14T07:35:28.105931+00:00",
+    "metric": "Solute-balanced MAE on common132/5solutes and excluding-indomethacin148/8solutes; original151 curve-weighted results secondary",
+    "sha256": "a51add1f4f9884dd880dc35b1a4d61be61dc1933d1c3eeb1073af406e7b1ee02"
+  },
+  "final_model_evaluation_registration": {
+    "recorded_UTC": "2026-10-14T11:41:32.945422+00:00",
+    "primary": "148 OSC / common132; all151 secondary",
+    "sha256": "732bc3523dccce9ad2a8cc41dbae3253110f82d11dbac4166cf4953727809db1"
+  },
+  "interpretation": "The148 OSC subset was defined after the initial151 results were observed; it was later specified before follow-up model evaluation. It was not an initial exclusion. These comparisons are not a new prospective test."
+}

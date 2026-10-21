@@ -1,0 +1,13 @@
+{
+  "CapturedKST": "2026-10-16T16:36:28.768532+09:00",
+  "CPU": {
+    "Name": "AMD Ryzen 9 9950X3D 16-Core Processor          ",
+    "NumberOfCores": 16,
+    "NumberOfLogicalProcessors": 32
+  },
+  "InstalledRAMGiB": 64.0,
+  "Timing": "CPU4threads and GPU; two measured148 solutes; fresh-process cold1, resident-model fresh-input warm5, reused-geometry/new-pair1 for each case.",
+  "GPU": {
+    "Name": "NVIDIA GeForce RTX 5070 Ti"
+  }
+}

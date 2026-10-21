@@ -1,0 +1,11 @@
+{
+  "frozen_green_names": [
+    "anisole",
+    "CPME",
+    "limonene",
+    "gamma-valerolactone"
+  ],
+  "scope": "original fixed project classification only; not an environmental certification",
+  "membership_changed": false,
+  "warning": "ethyl acetate + methanol remains other under the fixed project rule"
+}

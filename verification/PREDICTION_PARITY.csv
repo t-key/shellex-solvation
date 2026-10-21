@@ -1,0 +1,4 @@
+case,solute,solvent_A,solvent_B,max_abs_error,tolerance,gate_identical,seconds,state
+fixed_input_1,c1ccoc1,C1CCCC1,CN1CCCC1=O,0.0,5e-05,True,0.4698383999639191,passed
+fixed_input_2,c1ccoc1,C1CCCCC1,Cc1ccccc1C,0.0,5e-05,True,0.31044199998723343,passed
+fixed_input_3,c1ccoc1,C=C(C)C1CC=C(C)CC1,CC1CCC(=O)O1,0.0,5e-05,True,0.5013335000257939,passed

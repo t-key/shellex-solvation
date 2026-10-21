@@ -1,0 +1,187 @@
+{
+  "description": "Active solvent exposure definitions fixed before generation of the expanded teacher labels; no result-dependent rule selection",
+  "source_freeze_time_KST": "2026-10-13T21:30:56.423735+09:00",
+  "original_registration_hashes": {
+    "FUNCTIONAL_FAMILY_RULES_v2.json": "820fd50cb0fcb1a86e8880ffe088f38634acd8ee10d43a1d9225590252a2d16c",
+    "WITHHELD_SOLVENTS_v2.json": "ce570dd451fc15a2e08b63857ced9c34d746336d95683df1020d1d9cda500ab1",
+    "PREREGISTERED_HYPOTHESIS_v2.json": "15816a7a82e8ce0b5393407b179430b3942a7901f08e370995c72c70606eb570"
+  },
+  "hash_scope": "Hashes identify preserved original registration files, not this repackaged documentation JSON.",
+  "functional_family_rule": {
+    "smarts": {
+      "nitrile": "[C]#[N]",
+      "carbonate": "[O;X2][C;X3](=[O;X1])[O;X2]",
+      "haloarene": "[a][F,Cl,Br,I]",
+      "cycloalkane": "[C;R;X4]",
+      "ether": "[C;!$(C=O)]-[O;X2;H0]-[C;!$(C=O)]",
+      "alcohol": "[C;X4]-[O;H1]",
+      "ester": "[C;!$(C=O)]-[C;X3](=[O;X1])-[O;X2;H0]-[C]",
+      "aromatic_hydrocarbon": "[c;!$([c]-[!#6;!#1])]1[c;!$([c]-[!#6;!#1])][c;!$([c]-[!#6;!#1])][c;!$([c]-[!#6;!#1])][c;!$([c]-[!#6;!#1])][c;!$([c]-[!#6;!#1])]1",
+      "aryl_ether": "[a]-[O;X2;H0]-[C;X4]",
+      "terpene": "[C;X3](=[C;X3])([C;X4])[C;R]",
+      "lactone": "[C;R;!$([C](=[O])([O])[O])](=[O])[O;R]"
+    },
+    "primary_rule": "Same any-matched-family-exists aggregation as v2; added SMARTS only before labels. Specific subfamily exposure is separately reported, not selected after results.",
+    "cycloalkane_warning": "Saturated ring carbon motif also detects heterocycles/partially unsaturated rings"
+  },
+  "withheld_solvents": [
+    {
+      "name": "o-xylene",
+      "smiles": "Cc1ccccc1C",
+      "inchikey": "CTQNGGLPUBDAKN-UHFFFAOYSA-N",
+      "id": "V3_S08",
+      "partition": "sealed_unseen_solvent",
+      "matched_families": [
+        "aromatic_hydrocarbon"
+      ],
+      "family_present": true,
+      "matching_training_solvents": {
+        "aromatic_hydrocarbon": [
+          "mesitylene",
+          "1,2,4-trimethylbenzene",
+          "CTL_benzene",
+          "toluene"
+        ]
+      },
+      "specific_family": "aromatic_hydrocarbon",
+      "specific_family_present": true
+    },
+    {
+      "name": "gamma-valerolactone",
+      "smiles": "CC1CCC(=O)O1",
+      "inchikey": "GAEKPEKOJKCEMS-UHFFFAOYSA-N",
+      "id": "V3_S12",
+      "partition": "sealed_unseen_solvent",
+      "matched_families": [
+        "cycloalkane",
+        "ester",
+        "lactone"
+      ],
+      "family_present": true,
+      "matching_training_solvents": {
+        "cycloalkane": [
+          "cyclohexanone",
+          "2-MeTHF",
+          "cyclopentane",
+          "NMP",
+          "methylcyclohexane",
+          "Cyclooctane",
+          "NEW_THF",
+          "cyclohexane",
+          "tert-butylcyclohexane"
+        ],
+        "ester": [
+          "butyl acetate",
+          "iBuOAc",
+          "iPrOAc",
+          "ethyl_lactate",
+          "dimethyl adipate",
+          "diethyl adipate",
+          "NEW_ethyl_acetate"
+        ],
+        "lactone": []
+      },
+      "specific_family": "lactone",
+      "specific_family_present": false
+    },
+    {
+      "name": "anisole",
+      "smiles": "COc1ccccc1",
+      "inchikey": "RDOXTESZEPMUJZ-UHFFFAOYSA-N",
+      "id": "V3_S34",
+      "partition": "sealed_unseen_solvent",
+      "matched_families": [
+        "aryl_ether"
+      ],
+      "family_present": false,
+      "matching_training_solvents": {
+        "aryl_ether": []
+      },
+      "specific_family": "aryl_ether",
+      "specific_family_present": false
+    },
+    {
+      "name": "o-dichlorobenzene",
+      "smiles": "Clc1ccccc1Cl",
+      "inchikey": "RFFLAFLAYFXFSW-UHFFFAOYSA-N",
+      "id": "V3_S35",
+      "partition": "sealed_unseen_solvent",
+      "matched_families": [
+        "haloarene"
+      ],
+      "family_present": true,
+      "matching_training_solvents": {
+        "haloarene": [
+          "CB"
+        ]
+      },
+      "specific_family": "haloarene",
+      "specific_family_present": true
+    },
+    {
+      "name": "CPME",
+      "smiles": "COC1CCCC1",
+      "inchikey": "SKTCDJAMAYNROS-UHFFFAOYSA-N",
+      "id": "V3_S38",
+      "partition": "sealed_unseen_solvent",
+      "matched_families": [
+        "cycloalkane",
+        "ether"
+      ],
+      "family_present": true,
+      "matching_training_solvents": {
+        "cycloalkane": [
+          "cyclohexanone",
+          "2-MeTHF",
+          "cyclopentane",
+          "NMP",
+          "methylcyclohexane",
+          "Cyclooctane",
+          "NEW_THF",
+          "cyclohexane",
+          "tert-butylcyclohexane"
+        ],
+        "ether": [
+          "methyl tert-butyl ether",
+          "dibutyl ether",
+          "TAME",
+          "2-MeTHF",
+          "NEW_THF",
+          "diisopropyl ether"
+        ]
+      },
+      "specific_family": "ether",
+      "specific_family_present": true
+    },
+    {
+      "name": "limonene",
+      "smiles": "C=C(C)C1CC=C(C)CC1",
+      "inchikey": "XMGQYMWWDOXHJM-UHFFFAOYSA-N",
+      "id": "V3_S51",
+      "partition": "sealed_unseen_solvent",
+      "matched_families": [
+        "cycloalkane",
+        "terpene"
+      ],
+      "family_present": true,
+      "matching_training_solvents": {
+        "cycloalkane": [
+          "cyclohexanone",
+          "2-MeTHF",
+          "cyclopentane",
+          "NMP",
+          "methylcyclohexane",
+          "Cyclooctane",
+          "NEW_THF",
+          "cyclohexane",
+          "tert-butylcyclohexane"
+        ],
+        "terpene": []
+      },
+      "specific_family": "terpene",
+      "specific_family_present": false
+    }
+  ],
+  "hypothesis": "Solvents with previously exposed broad families were hypothesized to approach earlier exposed-family errors (~0.09–0.10 kcal/mol); absent-family solvents were hypothesized to have higher errors. This was not a model-selection criterion.",
+  "specific_family_analysis": "Specific-family exposure is a separate fixed secondary classification; not a rule selected after outcomes."
+}

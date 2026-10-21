@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "cases": 4,
+  "measured_prediction_queries": 28,
+  "summary_rows": 12,
+  "cold_repeats_per_case": 1,
+  "fresh_input_warm_repeats_per_case": 5,
+  "geometry_reuse_new_pair_repeats_per_case": 1,
+  "cpu_threads": 4,
+  "rdkit_version": "2026.03.6",
+  "shell_records_per_query": 128,
+  "pure_summary_poses_per_solvent": 4,
+  "model_weights_changed": false,
+  "gate_thresholds_changed": false,
+  "test_or_measured_accuracy_scoring": false,
+  "new_QM": 0,
+  "component_sum_max_error_s": 0.0
+}

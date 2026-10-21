@@ -1,0 +1,35 @@
+{
+  "state": "passed",
+  "artifacts": [
+    {
+      "path": "models/backbone/backbone_seed13.pt",
+      "all_model_and_preprocessing_values_exactly_equal": true,
+      "source_artifact_sha256": "e7452a8d8645573ee2f51993b206d976fb719159a045101b2eeb23b6eae7bf19",
+      "release_artifact_sha256": "36357c5e27659af170a97d30cf4b577828d544c3605c016669aa68e296244ffa",
+      "change": "container metadata only; removed historical deployment status and development bookkeeping"
+    },
+    {
+      "path": "models/shellex_head_seed13.pt",
+      "all_model_and_preprocessing_values_exactly_equal": true,
+      "source_artifact_sha256": "fce75fa6ab43a63f293b8d5b77dd95bcb6ce5b8ba32bc0f3defea543ace53175",
+      "release_artifact_sha256": "bd12cc272231f68f50db12c9f5bce3216a46820b06ddd282809224654e6dbc5b",
+      "change": "container metadata only; removed historical deployment status and development bookkeeping"
+    },
+    {
+      "path": "models/backbone/backbone_seed29.pt",
+      "all_model_and_preprocessing_values_exactly_equal": true,
+      "source_artifact_sha256": "79d50f4a210d97eb28c2ae3c8bb0b16d0b413ecfa7135250375571260de971fc",
+      "release_artifact_sha256": "114bc777f29a8df43dfa40858389227d0055d8faff7c6bb8b737bcc0b3b20d2c",
+      "change": "container metadata only; removed historical deployment status and development bookkeeping"
+    },
+    {
+      "path": "models/shellex_head_seed29.pt",
+      "all_model_and_preprocessing_values_exactly_equal": true,
+      "source_artifact_sha256": "52b999101054551f1e3d6e459f288a1bd212e596f951735ee59b1fa6694a23f5",
+      "release_artifact_sha256": "df7f026847052c429a66746b43fd55014737dfe1e6e061de53d714c9c81ee8e2",
+      "change": "container metadata only; removed historical deployment status and development bookkeeping"
+    }
+  ],
+  "gate_runtime_parameters_identical": true,
+  "numerical_precision_changed": false
+}

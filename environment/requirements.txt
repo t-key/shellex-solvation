@@ -1,0 +1,12 @@
+# Original recorded inference/training environment; Python3.10.
+# GPU PyTorch2.7.1 CUDA12.8 must be installed using the official cu128 index.
+numpy==2.2.6
+pandas==2.3.3
+rdkit==2026.3.6
+scipy==1.15.3
+scikit-learn==1.7.2
+torch==2.7.1
+# Optional baseline regeneration packages (stored-table reproduction does not need them):
+# thermo==0.6.1
+# ugropy==3.2.0
+# openCOSMO-RS 0.0.1, parameterization24a: see original upstream and version snapshot.

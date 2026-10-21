@@ -1,0 +1,57 @@
+name,smiles,inchikey,id,partition,heavy_atoms
+1-pentanol,CCCCCO,AMQJEAYHLZJPGS-UHFFFAOYSA-N,V3_S01,train_development,6
+mesitylene,Cc1cc(C)cc(C)c1,AUHZEENZYGFFBQ-UHFFFAOYSA-N,V3_S02,train_development,9
+1-propanol,CCCO,BDERNNFJNOPAEC-UHFFFAOYSA-N,V3_S03,train_development,4
+nonane,CCCCCCCCC,BKIMMITUMNQMOS-UHFFFAOYSA-N,V3_S04,train_development,9
+2-Butanol,CCC(C)O,BTANRVKWQNVYAZ-UHFFFAOYSA-N,V3_S05,train_development,5
+methyl tert-butyl ether,COC(C)(C)C,BZLVMXJERCGZMT-UHFFFAOYSA-N,V3_S06,train_development,6
+CTL_acetone,CC(C)=O,CSCPPACGZOOCGX-UHFFFAOYSA-N,V3_S07,train_development,4
+o-xylene,Cc1ccccc1C,CTQNGGLPUBDAKN-UHFFFAOYSA-N,V3_S08,sealed_unseen_solvent,8
+decane,CCCCCCCCCC,DIOQZVSQGTUSAI-UHFFFAOYSA-N,V3_S09,train_development,10
+butyl acetate,CCCCOC(C)=O,DKPFZGUDAPQIHT-UHFFFAOYSA-N,V3_S10,train_development,8
+dibutyl ether,CCCCOCCCC,DURPTKYDGMDSBL-UHFFFAOYSA-N,V3_S11,train_development,9
+gamma-valerolactone,CC1CCC(=O)O1,GAEKPEKOJKCEMS-UHFFFAOYSA-N,V3_S12,sealed_unseen_solvent,7
+iBuOAc,CC(=O)OCC(C)C,GJRQTCIYDGXPES-UHFFFAOYSA-N,V3_S13,train_development,8
+"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,GWHJZXXIDMPWGX-UHFFFAOYSA-N,V3_S14,train_development,9
+chloroform,ClC(Cl)Cl,HEDRZPFGACZZDS-UHFFFAOYSA-N,V3_S15,train_development,4
+TAME,CCC(C)(C)OC,HVZJRWJGKQPSFL-UHFFFAOYSA-N,V3_S16,train_development,7
+DMSO,CS(C)=O,IAZDPXIOMUYVGZ-UHFFFAOYSA-N,V3_S17,train_development,4
+DMC,COC(=O)OC,IEJIGPNLZYLLBP-UHFFFAOYSA-N,V3_S18,train_development,6
+heptane,CCCCCCC,IMNFDUFMRHMDMM-UHFFFAOYSA-N,V3_S19,train_development,7
+cyclohexanone,O=C1CCCCC1,JHIVVAPYMSGYDF-UHFFFAOYSA-N,V3_S20,train_development,7
+iPrOAc,CC(=O)OC(C)C,JMMWKPVZQRWMSS-UHFFFAOYSA-N,V3_S21,train_development,7
+2-MeTHF,CC1CCCO1,JWUJQDFVADABEY-UHFFFAOYSA-N,V3_S22,train_development,6
+2-pentanol,CCCC(C)O,JYVLIDXNZAXMDK-UHFFFAOYSA-N,V3_S23,train_development,6
+1-octanol,CCCCCCCCO,KBPLFHHGFOOTCA-UHFFFAOYSA-N,V3_S24,train_development,9
+2-propanol,CC(C)O,KFZMGEQAYNKOFK-UHFFFAOYSA-N,V3_S25,train_development,4
+NEW_ethanol,CCO,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,V3_S26,train_development,3
+1-butanol,CCCCO,LRHPLDYGYMQRHN-UHFFFAOYSA-N,V3_S27,train_development,5
+ethyl_lactate,CCOC(=O)C(C)O,LZCLXQDLBQLTDK-UHFFFAOYSA-N,V3_S28,train_development,8
+CB,Clc1ccccc1,MVPPADPHJFYWMZ-UHFFFAOYSA-N,V3_S29,train_development,7
+"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,NHTMVDHEPJAVLT-UHFFFAOYSA-N,V3_S30,train_development,8
+CTL_methanol,CO,OKKJLVBELUTLKV-UHFFFAOYSA-N,V3_S31,train_development,2
+3-Methyl-1-butanol,CC(C)CCO,PHTQWCKDNZKARW-UHFFFAOYSA-N,V3_S32,train_development,6
+squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,PRAKJMSDJKAYCZ-UHFFFAOYSA-N,V3_S33,train_development,30
+anisole,COc1ccccc1,RDOXTESZEPMUJZ-UHFFFAOYSA-N,V3_S34,sealed_unseen_solvent,8
+o-dichlorobenzene,Clc1ccccc1Cl,RFFLAFLAYFXFSW-UHFFFAOYSA-N,V3_S35,sealed_unseen_solvent,8
+cyclopentane,C1CCCC1,RGSFGYAAUTVSQA-UHFFFAOYSA-N,V3_S36,train_development,5
+NMP,CN1CCCC1=O,SECXISVLQFMRJM-UHFFFAOYSA-N,V3_S37,train_development,7
+CPME,COC1CCCC1,SKTCDJAMAYNROS-UHFFFAOYSA-N,V3_S38,sealed_unseen_solvent,7
+octane,CCCCCCCC,TVMXDCGIABBOFY-UHFFFAOYSA-N,V3_S39,train_development,8
+methylcyclohexane,CC1CCCCC1,UAEPNZWRGJTJPN-UHFFFAOYSA-N,V3_S40,train_development,7
+dimethyl adipate,COC(=O)CCCCC(=O)OC,UDSFAEKRVUSQDD-UHFFFAOYSA-N,V3_S41,train_development,12
+CTL_benzene,c1ccccc1,UHOVQNZJYSORNB-UHFFFAOYSA-N,V3_S42,train_development,6
+1-chlorobutane,CCCCCl,VFWCMGCRMGJXDK-UHFFFAOYSA-N,V3_S43,train_development,5
+diethyl adipate,CCOC(=O)CCCCC(=O)OCC,VIZORQUEIQEFRT-UHFFFAOYSA-N,V3_S44,train_development,14
+hexane,CCCCCC,VLKZOEOYAKHREP-UHFFFAOYSA-N,V3_S45,train_development,6
+NEW_acetonitrile,CC#N,WEVYAHXRMPXWCK-UHFFFAOYSA-N,V3_S46,train_development,3
+Cyclooctane,C1CCCCCCC1,WJTCGQSWYFHTAC-UHFFFAOYSA-N,V3_S47,train_development,8
+NEW_THF,C1CCOC1,WYURNTSHIVDZCO-UHFFFAOYSA-N,V3_S48,train_development,5
+cyclohexane,C1CCCCC1,XDTMQSROBMDMFD-UHFFFAOYSA-N,V3_S49,train_development,6
+NEW_ethyl_acetate,CCOC(C)=O,XEKOWRVHYACXOJ-UHFFFAOYSA-N,V3_S50,train_development,6
+limonene,C=C(C)C1CC=C(C)CC1,XMGQYMWWDOXHJM-UHFFFAOYSA-N,V3_S51,sealed_unseen_solvent,10
+tert-butylcyclohexane,CC(C)(C)C1CCCCC1,XTVMZZBLCLWBPM-UHFFFAOYSA-N,V3_S52,train_development,10
+toluene,Cc1ccccc1,YXFVVABEGXRONW-UHFFFAOYSA-N,V3_S53,train_development,7
+diisopropyl ether,CC(C)OC(C)C,ZAFNJMIOTHYJRJ-UHFFFAOYSA-N,V3_S54,train_development,7
+1-hexanol,CCCCCCO,ZSIAUFGUXNUGDI-UHFFFAOYSA-N,V3_S55,train_development,7
+2-Methyl-1-propanol,CC(C)CO,ZXEKIIBDNHEJCQ-UHFFFAOYSA-N,V3_S56,train_development,5

@@ -1,0 +1,61 @@
+{
+  "naphthalene_conversion": {
+    "nominal_cm3_mol": {
+      "methanol": 40.73,
+      "ethanol": 58.68,
+      "propanol1": 75.14,
+      "propanol2": 76.92,
+      "butanol1": 91.97,
+      "isooctane": 166.09,
+      "naphthalene_subcooled": 123.0
+    },
+    "qualification": "Nominal conversion constants retained unchanged. Published densities corroborate approximate values; not every constant is an exact measured value at 298.15 K.",
+    "sources": [
+      {
+        "components": [
+          "methanol",
+          "ethanol"
+        ],
+        "url": "https://www.mdpi.com/1099-4300/26/8/620"
+      },
+      {
+        "components": [
+          "ethanol",
+          "1-propanol",
+          "1-butanol"
+        ],
+        "url": "https://pubs.acs.org/doi/10.1021/je900888e",
+        "qualification": "Density-derived volume corroboration, not exact quoted constants"
+      },
+      {
+        "components": [
+          "2-propanol"
+        ],
+        "doi": "10.1021/je00021a026"
+      },
+      {
+        "components": [
+          "1-butanol"
+        ],
+        "doi": "10.1021/je00061a021"
+      },
+      {
+        "components": [
+          "isooctane"
+        ],
+        "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=902259",
+        "qualification": "Certified density 687.8 kg/m3 at 298.15 K; rounded nominal volume"
+      },
+      {
+        "components": [
+          "naphthalene_subcooled"
+        ],
+        "locator": "PDF page 23, printed xxiii, 123.0 cm3/mol",
+        "source": "IUPAC-NIST Solubility Data Series, volume 58; source location retained below"
+      }
+    ]
+  },
+  "phenanthrene_primary": "Measured saturated-solution density, including endpoints, from each corresponding source data record",
+  "phenanthrene_158_cm3_mol": "Assumed nominal volume used only in sensitivity comparison; not used in primary density-based conversion",
+  "total_error_bound_established": false
+}

@@ -1,0 +1,582 @@
+{
+  "name": "ShellEx",
+  "version": "1.0.0",
+  "release_date": "2026-10-21",
+  "repository_name": "shellex-solvation",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 326,
+      "sha256": "0786cf1faeab1baf1b69af67c50d95cfa19b67fd9bdd04961fc547eebcb4e4e9",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1166,
+      "sha256": "fa513e12603236ecad6246daa75e01c20f9a60c692203af7fa3cbddd827d65e6",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "DATA_GUIDE.md",
+      "bytes": 5007,
+      "sha256": "a9bf4baabc5c809eddaa0eb6db28c2deb816e4a7e320a200801183fd77d0d27f",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "5ea3ccc13410f5c926603866ca03580b16e90a29edd3059462d517ba97c42c2d",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 1005,
+      "sha256": "de0f9bf2df315534b231db66eed72d05c5195c5a1ae5e201cbd734009e935330",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "METHODS_AND_PROTOCOL.md",
+      "bytes": 6574,
+      "sha256": "449c1c33dd66fdfce6a30ec3c7120d750090b15164ed451f86959a4601d5034a",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3868,
+      "sha256": "722134e39fc9252183548135a45f59fd2538dd3c12ca0206a8669d49b8cbd63d",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "RUNTIME_BENCHMARK.md",
+      "bytes": 2265,
+      "sha256": "9943e96f1a7a738e767b5019a6f8109082e36a8731a48da120a9c8bee46d6873",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2347,
+      "sha256": "0979c2b355812fbe7691ef3dbb1a8df0520882fe5b30954561c5251de1ffc438",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 4099,
+      "sha256": "0afac0874aa984b1a406aa52af491ae7ef62a051cace49e119f6441e29ed8823",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/baselines/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/baselines/fingerprint.py",
+      "bytes": 737,
+      "sha256": "cc2c732f688c0edf3d9a1ad6c032b4b63fc230d7f22bf6f194a0b1e26261bff3",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/baselines/ideal_pair.py",
+      "bytes": 480,
+      "sha256": "0292c6e120b379fe728aa13267bc69a76fa8d562d44b0bc725a91cc85d298c90",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/baselines/score_stored.py",
+      "bytes": 624,
+      "sha256": "300991868297de80dddbe969fcc67bd14208c09a0724a06b06cc0b3a38b65948",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/evaluate/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/evaluate/statistics.py",
+      "bytes": 1214,
+      "sha256": "23d598ade7a88a79a35ec09f9a13525479071ce06e24d869e8ec3e57ec0ed301",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/figures/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/figures/export_data.py",
+      "bytes": 399,
+      "sha256": "636b0d5d6cea428288d30c09ee35b5d6bb9e66310f9f88846a6ca66d4e996191",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/__init__.py",
+      "bytes": 39,
+      "sha256": "f0a78d6119b83c4ee11c5c4049121f5fe66569f212fad95defc98f9d8757c949",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/backbone.py",
+      "bytes": 12808,
+      "sha256": "b8aeda03749385b85a0b77567b2e9d2fc6ff3e36b73b81a760d0f8a834b293d6",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/features.py",
+      "bytes": 2759,
+      "sha256": "7fc3f34ecb3845a00f6f704b5dace2e5ce392855c2649fe677f165cfa57ca1f4",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/gates.py",
+      "bytes": 1420,
+      "sha256": "42a79de3e1c212af414d659fd149fb0839427685709e8bb14b422c4813be95ad",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/geometry.py",
+      "bytes": 12462,
+      "sha256": "117dab8de08ed6f0f07353c168246bfc81f6bb5fbc8cc8c7af24b92815893a3d",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/head.py",
+      "bytes": 424,
+      "sha256": "5bde3a66ab8791229c16465114259255a311b1e75eac54ffaa788065a2397373",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/shellex/predictor.py",
+      "bytes": 5957,
+      "sha256": "f6173a90c7b5d4d2735cd14f8ec090c734faccd91e43b807ead0d8903f8f3966",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/train/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/train/build_features.py",
+      "bytes": 1026,
+      "sha256": "ded5988eb71428a7aec5cc8ac27cfcf68b0e1bd9667863113581cbdee2014394",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "code/train/train_heads.py",
+      "bytes": 3741,
+      "sha256": "9914b0e62b546a8c99fbade28cd26998905aec2c8c95375831a62dd38a193ec0",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "config.yaml",
+      "bytes": 660,
+      "sha256": "bf2097022aec153b334c69094380cc84fa0f5587e9fbd7163d3a29cf03750b98",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "data/LICENSE-DATA.md",
+      "bytes": 1144,
+      "sha256": "e3a8ca0201a76ef56075661382af1ea78ad101f42d7a86064b03ab81832fc67b",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/labels/calculated_curves.csv",
+      "bytes": 11012667,
+      "sha256": "553bb214a0413ae8d36ef5cda3951c6a75adec7408fde503f149c9a29d217463",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/measured/README.md",
+      "bytes": 5129,
+      "sha256": "4f15bef5b36d84c1106e66f5c542177bef69059fa22bed1552c08fe9e907c34a",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/measured/conversion_sensitivity.csv",
+      "bytes": 4382,
+      "sha256": "08fc7675e6ecfe52ccf45d384fd31cdd7806522e1c5bc69802eaf9caa3e014d1",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/measured/converted_points.csv",
+      "bytes": 19786,
+      "sha256": "d7d3602cb31fe2ac71183a3c129d2cf784876bbcc378465e223d2180c0ed0779",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/measured/measured_curves.csv",
+      "bytes": 124586,
+      "sha256": "221ce176c3d158608c9fd552eafc2a9529e07b4058af25d58ab2a7f1f66da08f",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/measured/measured_reported_points.csv",
+      "bytes": 234167,
+      "sha256": "b920c5b5821ada5af872ed3c2b0cdbb5d44f8a0c12e9d4c4e126bac84dd80201",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/measured/molar_volume_provenance.json",
+      "bytes": 1977,
+      "sha256": "5f0702a37cbd0190baebdacbeab42f8f006e8107f2f52ed38724bdba07202cc0",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/measured/out_of_scope_indomethacin.csv",
+      "bytes": 2626,
+      "sha256": "4a2053fba715412d3978f9ea3f2df40cb47be658516a3dfdae2c3495233f5111",
+      "license_scope": "original-source rights / author-owned curation CC-BY-4.0"
+    },
+    {
+      "path": "data/molecules/frozen_conformers.json",
+      "bytes": 498334,
+      "sha256": "5ecb0430e218a75e4f65617fc1f374867195ad9b5be45673383d0beb8c3b075c",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/molecules/green_classification.json",
+      "bytes": 322,
+      "sha256": "b1174c259db53fd0d31c9915811a679e367c1101abc9eb2888f1a27bf2fa5286",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/molecules/molecular_inventory.csv",
+      "bytes": 5593,
+      "sha256": "b0f6ea078e50f575e445c0f27d7507834da2db9df7e4be5c1b2a11b97b863157",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/molecules/solutes.csv",
+      "bytes": 25033,
+      "sha256": "3f96e9ad3ba1c8e7f2e76557d504a4ca617da6a13177b1fca5f6674ab4601504",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/molecules/solvent_pairs.csv",
+      "bytes": 12185,
+      "sha256": "224cbea1f532b9c3644a8fa516b9bce6fd61a848876924cefe2ab31cd45d706b",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/molecules/solvents.csv",
+      "bytes": 4561,
+      "sha256": "37278fed865bbb828af1e3207fdef226f11574b832d982e5deb3e16234344a2d",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/predictions/computed_curve_metrics.csv",
+      "bytes": 11460425,
+      "sha256": "76c27936c555a260f6179fff1ee5284dfc082cca13e5e9aa8aabf5f9fd38d347",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/predictions/measured_curve_metrics.csv",
+      "bytes": 223629,
+      "sha256": "58dae506589ef9ea896f5eb6ecba3811baa155de13956a0454c1d6b000eae7f2",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/predictions/measured_pred_baselines.json",
+      "bytes": 406021,
+      "sha256": "015a9dc9a009f218c1d3181c10983e320067ebca1c9249befb11d3fe8268fd86",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/predictions/measured_pred_cosmors.json",
+      "bytes": 160191,
+      "sha256": "b66e19187ee800511476814f90fc826a7e4ac72f1b831857d90347182af7a540",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/predictions/measured_pred_unifac.json",
+      "bytes": 150403,
+      "sha256": "43c23f0d54b063d71e7d9524f88709c0542113b060da0776695d68ab1a01314a",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/predictions/shellex_predictions.json",
+      "bytes": 14564418,
+      "sha256": "38a119c12f62eabef44cfdc8fce710e499afe6f2b62af8e43c24a1fa525cafb3",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/splits/calculated_splits.csv",
+      "bytes": 819563,
+      "sha256": "8fd4e8337aed6d517745f917db9a80c12a8d01ac6e25d9ab430a55480db19d27",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/splits/measured_subsets.json",
+      "bytes": 11225,
+      "sha256": "788e877f23823e596976d0d6410874f208a71bf1cf419b404ee8a246967e265a",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/splits/solvent_family_design.json",
+      "bytes": 6199,
+      "sha256": "eafd2bf136a5234ec8d26c9cf12f2df90988bddfe47e6d9ec5ecd9a342c90983",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "data/splits/training_order.json",
+      "bytes": 222603,
+      "sha256": "8d7dfeb0d4d0ce93e6bccb9282cdca279526f867225b49be6698136c2865c760",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "environment/HARDWARE_SNAPSHOT.json",
+      "bytes": 450,
+      "sha256": "4b507ad1007770ee8cadda6532fcf24211591026d6f18c5b851c14993a05b842",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "environment/README.md",
+      "bytes": 1454,
+      "sha256": "7aed89bc4170d7558877f5fa8425b4f4d4b9eea2b297f6c52060d2aa5a8cfad4",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "environment/requirements.txt",
+      "bytes": 441,
+      "sha256": "6ab330db00dc04b4f15e42627d6dc9dd95f65456ba3ca31ed0228f3a3b3cc801",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "models/LICENSE-WEIGHTS.md",
+      "bytes": 1861,
+      "sha256": "1949f092b8430b48b3c3c9c9aae4f469bd67bcafaa220b4958bdad4dfe4e10c0",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/backbone/backbone_seed13.pt",
+      "bytes": 2215532,
+      "sha256": "36357c5e27659af170a97d30cf4b577828d544c3605c016669aa68e296244ffa",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/backbone/backbone_seed29.pt",
+      "bytes": 2215532,
+      "sha256": "114bc777f29a8df43dfa40858389227d0055d8faff7c6bb8b737bcc0b3b20d2c",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/fingerprint_ridge.pkl",
+      "bytes": 228934,
+      "sha256": "01af52cec53a8f7ab27ff340006b1f75ca640ec3ad11d76d2c420b5ae86f7277",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/gates.json",
+      "bytes": 3912732,
+      "sha256": "52b604ee037fa6d1950c12699ccca136de0bca1fb171b63fde773fedcc2ff3d0",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/pair_coefficients.json",
+      "bytes": 16098,
+      "sha256": "8b4b0d9fcc90602aae6494a7f07065b26162198d2c30158988414b4943e77552",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/pair_coefficients_train9800.json",
+      "bytes": 17920,
+      "sha256": "ae39fc0b67ab0c190ce0d23c9bfa842f1352c6954247572a4817017fe7eb4b62",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/shellex_head_seed13.pt",
+      "bytes": 7535413,
+      "sha256": "bd12cc272231f68f50db12c9f5bce3216a46820b06ddd282809224654e6dbc5b",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "models/shellex_head_seed29.pt",
+      "bytes": 7535413,
+      "sha256": "df7f026847052c429a66746b43fd55014737dfe1e6e061de53d714c9c81ee8e2",
+      "license_scope": "CC-BY-NC-4.0"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 1062,
+      "sha256": "db8d6be4c8c968ca9cd6d8a42f1e01bb375dcb58bb489e0861d21fad2e6ca2d9",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 928,
+      "sha256": "8f7f6f486fbf7546b9b77f2ba5efb368fbfe571f3c39c191bbe93bd9eaa28635",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "references/data_source_references.bib",
+      "bytes": 18703,
+      "sha256": "108ad5e96a6a6d49afa9e3b938304356ef3e8547f2b137eae164dcd5b0803fa1",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "references/data_sources.csv",
+      "bytes": 61991,
+      "sha256": "6a8992478edd90f94e0d6bde1647bffbad9d86f303efd9096c5faec84d9509b2",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "references/references.bib",
+      "bytes": 14247,
+      "sha256": "e4a222292de99f7ef653fca5e8a99c9a45f508e222a23ac0e35e79a57ac65d6e",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "references/references.csv",
+      "bytes": 9460,
+      "sha256": "ae8e1062c346e601e61f6a0c7ece089d506b6b7488cd040e6b68c131b0607874",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "reproduce_tables.py",
+      "bytes": 10556,
+      "sha256": "c23775a0883fb646ed1c14a4a17f86c3d84f202cc463a86548e67df291c51f1b",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "results/FIG2_COMPUTED_AXIS_MAE.csv",
+      "bytes": 7291,
+      "sha256": "606501f1442da92be9111edb9276c486ec40cc1ef358108593282f26ef1eba09",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/FIG3_MEASURED_MAE.csv",
+      "bytes": 4471,
+      "sha256": "0d883c40355904f18a79c0d3322d7bb6c45faf6cdac239a587ca297135e38023",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/FIG3_PER_SOLUTE_MAE.csv",
+      "bytes": 29434,
+      "sha256": "9e0e469de76e5980a85de65018ad0c7873757eb5e97cc9662542c99fe0a567f3",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/INDOMETHACIN_GATE_DIAGNOSTICS.csv",
+      "bytes": 724,
+      "sha256": "fc01b48348027ff221f36c18e0305193861b376f9ec5af1d0ff6456f507a3e44",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/MAP_REFERENCE_REPRODUCTION.csv",
+      "bytes": 350,
+      "sha256": "56a3c3c83ff673671d3240fcdb34f67b1d866d1955b53d0ab2e9f72150ea0778",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/MEASURED_PAIRED_VS_BASELINES.csv",
+      "bytes": 5586,
+      "sha256": "8d09f43d9ed0ae08c54afa43df40a05209d535aa1035d4df4ef088bb4c6d87e3",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/PAIR_MEAN_TABLE_VALUES.csv",
+      "bytes": 1809,
+      "sha256": "b349158477bb43da9d74c70cbee6fac16ca5ee64e4626597a1e52fe95c63daf3",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/QM_TIMING_BY_MOLECULE.csv",
+      "bytes": 619,
+      "sha256": "09aa2f8ecedb1ae6cba9cf6b2937dd3b0e5202d04081794ac1737e350f75a7c2",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/SHELLEX_MAP_RANK_CORRELATION.csv",
+      "bytes": 1386,
+      "sha256": "3f478bf2a8f94d51662aaf180b10a429a8418deac5780dd09b77ba712f6671cd",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/SHELLEX_MAP_TEST_CURVES.csv",
+      "bytes": 938082,
+      "sha256": "2f9275d6509b15f6ddb811ac407cadf4925463c95646dc77b368043cbc3a0df7",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/SHELLEX_PAIR_RANKING.csv",
+      "bytes": 67819,
+      "sha256": "f8655976ecf04927a9cb9712ceb028e6910bf76c9d0480caf0f262617df3b2dd",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/TIMING_EVIDENCE.csv",
+      "bytes": 7900,
+      "sha256": "ff9dfe5e888da82d8d726b698707d41794410d263e96f824778d51cac9440f82",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/TIMING_SHELLEX_END_TO_END.csv",
+      "bytes": 5079,
+      "sha256": "33546c98c343cebfb8282ad67db7da7afbc19e1c5d261e435c8233ef21e7de2f",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/UNIFAC_APPLICABILITY.csv",
+      "bytes": 7361,
+      "sha256": "cae046899d7189f1ac70098679ad01af75124db92ca2192e2b8a5192092b2db7",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "results/UNIFAC_MATCHED_COMPARISON.csv",
+      "bytes": 2407,
+      "sha256": "61b39bc0bfe6531f67ccdcea7215e7c85c8cda20593ffa98263161d56ce92d31",
+      "license_scope": "CC-BY-4.0 for author-generated contributions"
+    },
+    {
+      "path": "verification/ID_RENAMING.md",
+      "bytes": 1905,
+      "sha256": "5bcd8ad239c7dfc0b5dad8db8e1754544ad6e018ed23d17d2bce152e5a9b73a5",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "verification/MEASURED_SCOPE_CHRONOLOGY.json",
+      "bytes": 2003,
+      "sha256": "4cde82d6b0d494dc7d2c2278963c3236b0b32ce9f1073e25b9662f2afa5a77e1",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "verification/MODEL_NUMERICAL_INTEGRITY.json",
+      "bytes": 1907,
+      "sha256": "25f15ae952840307910e372c19c8dbfb68dd606279416719190f595b7370d4ef",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "verification/PREDICTION_PARITY.csv",
+      "bytes": 354,
+      "sha256": "678c4daeb3129b675e696b95ba08c2d0c549b39bae552ef4012595fa91ffb3d2",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "verification/RELEASE_QC.json",
+      "bytes": 1474,
+      "sha256": "b7895c19cf9355c009868c845c28697836625d149a33ced2a39851679b16327b",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "verification/TABLE_REPRODUCTION.csv",
+      "bytes": 8196,
+      "sha256": "d418b249062b68ad308f584ccda62ca0d33e83d5198fc0ee34260772efed8753",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    },
+    {
+      "path": "verification/TIMING_QC.json",
+      "bytes": 528,
+      "sha256": "9b6a30bbad87a608dbc8ab8ffc340d74feea7fb792c78faf66575b7bb27456a6",
+      "license_scope": "MIT for original code/documentation; third-party rights retained"
+    }
+  ],
+  "self_hash_policy": "All payload files are listed except FILE_MANIFEST.json and SHA256SUMS.txt to avoid circular hashes. SHA256SUMS.txt includes FILE_MANIFEST.json and all listed files; it excludes itself.",
+  "model_and_prior_scientific_values_preserved": true,
+  "restored_original_primary151_from_saved_values": true,
+  "identifier_renaming": "2026-10-21; see verification/ID_RENAMING.md"
+}

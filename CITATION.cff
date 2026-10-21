@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use ShellEx, please cite the accompanying article and this software release."
+title: "ShellEx: predicting excess solvation in binary solvents"
+type: software
+version: "1.0.0"
+date-released: "2026-10-21"
+repository-code: "https://github.com/t-key/shellex-solvation"
+license:
+  - MIT
+  - CC-BY-4.0
+  - CC-BY-NC-4.0
+authors:
+  - family-names: Ki
+    given-names: Taeyoon
+    orcid: "https://orcid.org/0000-0002-8092-091X"
+    affiliation: "Heeger Center for Advanced Materials, Gwangju Institute of Science and Technology"
+  - family-names: Lee
+    given-names: Kwanghee
+    affiliation: "Department of Materials Science and Engineering, Gwangju Institute of Science and Technology"
+keywords:
+  - excess solvation
+  - binary solvents
+  - organic semiconductors
+  - green solvents
+  - COSMO-RS
+  - machine learning
+preferred-citation:
+  type: article
+  title: "Predicting excess solvation in binary solvents toward green organic semiconductor processing"
+  authors:
+    - family-names: Ki
+      given-names: Taeyoon
+      orcid: "https://orcid.org/0000-0002-8092-091X"
+    - family-names: Lee
+      given-names: Kwanghee
+  year: 2026

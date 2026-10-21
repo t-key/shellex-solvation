@@ -1,0 +1,201 @@
+pair_id,solvent_A,SMILES_A,solvent_B,SMILES_B,frozen_green_category
+SP001,cyclopentane,C1CCCC1,Cyclooctane,C1CCCCCCC1,other
+SP002,cyclopentane,C1CCCC1,iPrOAc,CC(=O)OC(C)C,other
+SP003,cyclopentane,C1CCCC1,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,other
+SP004,cyclopentane,C1CCCC1,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,other
+SP005,cyclopentane,C1CCCC1,2-Methyl-1-propanol,CC(C)CO,other
+SP006,cyclopentane,C1CCCC1,methylcyclohexane,CC1CCCCC1,other
+SP007,cyclopentane,C1CCCC1,NMP,CN1CCCC1=O,other
+SP008,cyclopentane,C1CCCC1,cyclohexanone,O=C1CCCCC1,other
+SP009,cyclohexane,C1CCCCC1,o-xylene,Cc1ccccc1C,other
+SP010,cyclohexane,C1CCCCC1,cyclohexanone,O=C1CCCCC1,other
+SP011,Cyclooctane,C1CCCCCCC1,NEW_THF,C1CCOC1,other
+SP012,Cyclooctane,C1CCCCCCC1,CTL_acetone,CC(C)=O,other
+SP013,Cyclooctane,C1CCCCCCC1,2-MeTHF,CC1CCCO1,other
+SP014,Cyclooctane,C1CCCCCCC1,dimethyl adipate,COC(=O)CCCCC(=O)OC,other
+SP015,Cyclooctane,C1CCCCCCC1,CTL_benzene,c1ccccc1,other
+SP016,NEW_THF,C1CCOC1,iPrOAc,CC(=O)OC(C)C,other
+SP017,NEW_THF,C1CCOC1,iBuOAc,CC(=O)OCC(C)C,other
+SP018,NEW_THF,C1CCOC1,3-Methyl-1-butanol,CC(C)CCO,other
+SP019,NEW_THF,C1CCOC1,diisopropyl ether,CC(C)OC(C)C,other
+SP020,NEW_THF,C1CCOC1,NEW_ethanol,CCO,other
+SP021,NEW_THF,C1CCOC1,toluene,Cc1ccccc1,other
+SP022,limonene,C=C(C)C1CC=C(C)CC1,gamma-valerolactone,CC1CCC(=O)O1,green+green
+SP023,limonene,C=C(C)C1CC=C(C)CC1,CPME,COC1CCCC1,green+green
+SP024,limonene,C=C(C)C1CC=C(C)CC1,anisole,COc1ccccc1,green+green
+SP025,limonene,C=C(C)C1CC=C(C)CC1,CB,Clc1ccccc1,green+halo
+SP026,limonene,C=C(C)C1CC=C(C)CC1,o-dichlorobenzene,Clc1ccccc1Cl,green+halo
+SP027,NEW_acetonitrile,CC#N,DMSO,CS(C)=O,other
+SP028,NEW_acetonitrile,CC#N,mesitylene,Cc1cc(C)cc(C)c1,other
+SP029,NEW_acetonitrile,CC#N,o-xylene,Cc1ccccc1C,other
+SP030,NEW_acetonitrile,CC#N,chloroform,ClC(Cl)Cl,other
+SP031,NEW_acetonitrile,CC#N,cyclohexanone,O=C1CCCCC1,other
+SP032,iPrOAc,CC(=O)OC(C)C,CTL_acetone,CC(C)=O,other
+SP033,iPrOAc,CC(=O)OC(C)C,2-MeTHF,CC1CCCO1,other
+SP034,iPrOAc,CC(=O)OC(C)C,TAME,CCC(C)(C)OC,other
+SP035,iPrOAc,CC(=O)OC(C)C,NEW_ethanol,CCO,other
+SP036,iPrOAc,CC(=O)OC(C)C,ethyl_lactate,CCOC(=O)C(C)O,other
+SP037,iPrOAc,CC(=O)OC(C)C,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,other
+SP038,iPrOAc,CC(=O)OC(C)C,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP039,iBuOAc,CC(=O)OCC(C)C,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,other
+SP040,iBuOAc,CC(=O)OCC(C)C,3-Methyl-1-butanol,CC(C)CCO,other
+SP041,iBuOAc,CC(=O)OCC(C)C,TAME,CCC(C)(C)OC,other
+SP042,iBuOAc,CC(=O)OCC(C)C,decane,CCCCCCCCCC,other
+SP043,iBuOAc,CC(=O)OCC(C)C,ethyl_lactate,CCOC(=O)C(C)O,other
+SP044,iBuOAc,CC(=O)OCC(C)C,DMSO,CS(C)=O,other
+SP045,iBuOAc,CC(=O)OCC(C)C,mesitylene,Cc1cc(C)cc(C)c1,other
+SP046,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,3-Methyl-1-butanol,CC(C)CCO,other
+SP047,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,2-Methyl-1-propanol,CC(C)CO,other
+SP048,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,octane,CCCCCCCC,other
+SP049,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,1-hexanol,CCCCCCO,other
+SP050,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,1-pentanol,CCCCCO,other
+SP051,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,1-chlorobutane,CCCCCl,other
+SP052,tert-butylcyclohexane,CC(C)(C)C1CCCCC1,mesitylene,Cc1cc(C)cc(C)c1,other
+SP053,CTL_acetone,CC(C)=O,diisopropyl ether,CC(C)OC(C)C,other
+SP054,CTL_acetone,CC(C)=O,2-Butanol,CCC(C)O,other
+SP055,CTL_acetone,CC(C)=O,nonane,CCCCCCCCC,other
+SP056,CTL_acetone,CC(C)=O,1-chlorobutane,CCCCCl,other
+SP057,CTL_acetone,CC(C)=O,methyl tert-butyl ether,COC(C)(C)C,other
+SP058,CTL_acetone,CC(C)=O,chloroform,ClC(Cl)Cl,other
+SP059,CTL_acetone,CC(C)=O,cyclohexanone,O=C1CCCCC1,other
+SP060,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,2-propanol,CC(C)O,other
+SP061,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,2-Butanol,CCC(C)O,other
+SP062,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,2-pentanol,CCCC(C)O,other
+SP063,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,octane,CCCCCCCC,other
+SP064,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,NEW_ethyl_acetate,CCOC(C)=O,other
+SP065,"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,mesitylene,Cc1cc(C)cc(C)c1,other
+SP066,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,2-Butanol,CCC(C)O,other
+SP067,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,octane,CCCCCCCC,other
+SP068,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,other
+SP069,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,NMP,CN1CCCC1=O,other
+SP070,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,CTL_methanol,CO,other
+SP071,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,dimethyl adipate,COC(=O)CCCCC(=O)OC,other
+SP072,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,mesitylene,Cc1cc(C)cc(C)c1,other
+SP073,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP074,squalane,CC(C)CCCC(C)CCCC(C)CCCCC(C)CCCC(C)CCCC(C)C,CTL_benzene,c1ccccc1,other
+SP075,3-Methyl-1-butanol,CC(C)CCO,2-pentanol,CCCC(C)O,other
+SP076,3-Methyl-1-butanol,CC(C)CCO,1-hexanol,CCCCCCO,other
+SP077,3-Methyl-1-butanol,CC(C)CCO,1-butanol,CCCCO,other
+SP078,3-Methyl-1-butanol,CC(C)CCO,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,other
+SP079,2-Methyl-1-propanol,CC(C)CO,methylcyclohexane,CC1CCCCC1,other
+SP080,2-Methyl-1-propanol,CC(C)CO,1-chlorobutane,CCCCCl,other
+SP081,2-Methyl-1-propanol,CC(C)CO,1-propanol,CCCO,other
+SP082,2-Methyl-1-propanol,CC(C)CO,mesitylene,Cc1cc(C)cc(C)c1,other
+SP083,2-Methyl-1-propanol,CC(C)CO,CTL_benzene,c1ccccc1,other
+SP084,diisopropyl ether,CC(C)OC(C)C,2-pentanol,CCCC(C)O,other
+SP085,diisopropyl ether,CC(C)OC(C)C,heptane,CCCCCCC,other
+SP086,diisopropyl ether,CC(C)OC(C)C,nonane,CCCCCCCCC,other
+SP087,diisopropyl ether,CC(C)OC(C)C,1-butanol,CCCCO,other
+SP088,diisopropyl ether,CC(C)OC(C)C,CTL_methanol,CO,other
+SP089,diisopropyl ether,CC(C)OC(C)C,DMSO,CS(C)=O,other
+SP090,diisopropyl ether,CC(C)OC(C)C,mesitylene,Cc1cc(C)cc(C)c1,other
+SP091,diisopropyl ether,CC(C)OC(C)C,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP092,2-propanol,CC(C)O,nonane,CCCCCCCCC,other
+SP093,2-propanol,CC(C)O,1-pentanol,CCCCCO,other
+SP094,2-propanol,CC(C)O,1-chlorobutane,CCCCCl,other
+SP095,2-propanol,CC(C)O,CTL_methanol,CO,other
+SP096,2-propanol,CC(C)O,DMSO,CS(C)=O,other
+SP097,2-propanol,CC(C)O,chloroform,ClC(Cl)Cl,other
+SP098,gamma-valerolactone,CC1CCC(=O)O1,1-octanol,CCCCCCCCO,green+alcohol
+SP099,gamma-valerolactone,CC1CCC(=O)O1,CPME,COC1CCCC1,green+green
+SP100,gamma-valerolactone,CC1CCC(=O)O1,anisole,COc1ccccc1,green+green
+SP101,gamma-valerolactone,CC1CCC(=O)O1,o-dichlorobenzene,Clc1ccccc1Cl,green+halo
+SP102,methylcyclohexane,CC1CCCCC1,nonane,CCCCCCCCC,other
+SP103,methylcyclohexane,CC1CCCCC1,1-pentanol,CCCCCO,other
+SP104,methylcyclohexane,CC1CCCCC1,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,other
+SP105,methylcyclohexane,CC1CCCCC1,NMP,CN1CCCC1=O,other
+SP106,methylcyclohexane,CC1CCCCC1,methyl tert-butyl ether,COC(C)(C)C,other
+SP107,methylcyclohexane,CC1CCCCC1,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP108,2-MeTHF,CC1CCCO1,2-Butanol,CCC(C)O,other
+SP109,2-MeTHF,CC1CCCO1,NEW_ethyl_acetate,CCOC(C)=O,other
+SP110,2-MeTHF,CC1CCCO1,NMP,CN1CCCC1=O,other
+SP111,2-MeTHF,CC1CCCO1,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP112,2-MeTHF,CC1CCCO1,toluene,Cc1ccccc1,other
+SP113,TAME,CCC(C)(C)OC,1-pentanol,CCCCCO,other
+SP114,TAME,CCC(C)(C)OC,1-propanol,CCCO,other
+SP115,TAME,CCC(C)(C)OC,NEW_ethanol,CCO,other
+SP116,TAME,CCC(C)(C)OC,chloroform,ClC(Cl)Cl,other
+SP117,2-Butanol,CCC(C)O,1-chlorobutane,CCCCCl,other
+SP118,2-Butanol,CCC(C)O,NEW_ethyl_acetate,CCOC(C)=O,other
+SP119,2-Butanol,CCC(C)O,methyl tert-butyl ether,COC(C)(C)C,other
+SP120,2-pentanol,CCCC(C)O,heptane,CCCCCCC,other
+SP121,2-pentanol,CCCC(C)O,octane,CCCCCCCC,other
+SP122,2-pentanol,CCCC(C)O,nonane,CCCCCCCCC,other
+SP123,2-pentanol,CCCC(C)O,NMP,CN1CCCC1=O,other
+SP124,2-pentanol,CCCC(C)O,methyl tert-butyl ether,COC(C)(C)C,other
+SP125,decane,CCCCCCCCCC,1-butanol,CCCCO,other
+SP126,decane,CCCCCCCCCC,ethyl_lactate,CCOC(=O)C(C)O,other
+SP127,decane,CCCCCCCCCC,methyl tert-butyl ether,COC(C)(C)C,other
+SP128,decane,CCCCCCCCCC,cyclohexanone,O=C1CCCCC1,other
+SP129,nonane,CCCCCCCCC,decane,CCCCCCCCCC,other
+SP130,nonane,CCCCCCCCC,toluene,Cc1ccccc1,other
+SP131,nonane,CCCCCCCCC,CTL_benzene,c1ccccc1,other
+SP132,1-octanol,CCCCCCCCO,NMP,CN1CCCC1=O,other
+SP133,1-octanol,CCCCCCCCO,anisole,COc1ccccc1,green+alcohol
+SP134,1-octanol,CCCCCCCCO,mesitylene,Cc1cc(C)cc(C)c1,other
+SP135,1-octanol,CCCCCCCCO,chloroform,ClC(Cl)Cl,other
+SP136,octane,CCCCCCCC,1-hexanol,CCCCCCO,other
+SP137,octane,CCCCCCCC,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,other
+SP138,octane,CCCCCCCC,dimethyl adipate,COC(=O)CCCCC(=O)OC,other
+SP139,octane,CCCCCCCC,chloroform,ClC(Cl)Cl,other
+SP140,heptane,CCCCCCC,decane,CCCCCCCCCC,other
+SP141,heptane,CCCCCCC,1-hexanol,CCCCCCO,other
+SP142,heptane,CCCCCCC,1-chlorobutane,CCCCCl,other
+SP143,heptane,CCCCCCC,1-butanol,CCCCO,other
+SP144,1-hexanol,CCCCCCO,toluene,Cc1ccccc1,other
+SP145,hexane,CCCCCC,heptane,CCCCCCC,other
+SP146,hexane,CCCCCC,decane,CCCCCCCCCC,other
+SP147,hexane,CCCCCC,1-hexanol,CCCCCCO,other
+SP148,hexane,CCCCCC,1-pentanol,CCCCCO,other
+SP149,hexane,CCCCCC,1-propanol,CCCO,other
+SP150,hexane,CCCCCC,ethyl_lactate,CCOC(=O)C(C)O,other
+SP151,hexane,CCCCCC,DMSO,CS(C)=O,other
+SP152,1-pentanol,CCCCCO,NMP,CN1CCCC1=O,other
+SP153,1-chlorobutane,CCCCCl,DMSO,CS(C)=O,other
+SP154,1-chlorobutane,CCCCCl,chloroform,ClC(Cl)Cl,other
+SP155,butyl acetate,CCCCOC(C)=O,NMP,CN1CCCC1=O,other
+SP156,butyl acetate,CCCCOC(C)=O,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP157,butyl acetate,CCCCOC(C)=O,o-xylene,Cc1ccccc1C,other
+SP158,butyl acetate,CCCCOC(C)=O,cyclohexanone,O=C1CCCCC1,other
+SP159,dibutyl ether,CCCCOCCCC,o-xylene,Cc1ccccc1C,other
+SP160,dibutyl ether,CCCCOCCCC,o-dichlorobenzene,Clc1ccccc1Cl,other
+SP161,1-butanol,CCCCO,NEW_ethanol,CCO,other
+SP162,1-butanol,CCCCO,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,other
+SP163,1-butanol,CCCCO,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP164,1-butanol,CCCCO,toluene,Cc1ccccc1,other
+SP165,1-propanol,CCCO,dimethyl adipate,COC(=O)CCCCC(=O)OC,other
+SP166,1-propanol,CCCO,CTL_benzene,c1ccccc1,other
+SP167,ethyl_lactate,CCOC(=O)C(C)O,dimethyl adipate,COC(=O)CCCCC(=O)OC,other
+SP168,ethyl_lactate,CCOC(=O)C(C)O,methyl tert-butyl ether,COC(C)(C)C,other
+SP169,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,dimethyl adipate,COC(=O)CCCCC(=O)OC,other
+SP170,diethyl adipate,CCOC(=O)CCCCC(=O)OCC,DMSO,CS(C)=O,other
+SP171,NEW_ethyl_acetate,CCOC(C)=O,CTL_methanol,CO,other
+SP172,NEW_ethyl_acetate,CCOC(C)=O,cyclohexanone,O=C1CCCCC1,other
+SP173,NEW_ethanol,CCO,ethyl_lactate,CCOC(=O)C(C)O,other
+SP174,NEW_ethanol,CCO,NEW_ethyl_acetate,CCOC(C)=O,other
+SP175,NEW_ethanol,CCO,CTL_methanol,CO,other
+SP176,NEW_ethanol,CCO,cyclohexanone,O=C1CCCCC1,other
+SP177,NEW_ethanol,CCO,CTL_benzene,c1ccccc1,other
+SP178,NMP,CN1CCCC1=O,DMSO,CS(C)=O,other
+SP179,NMP,CN1CCCC1=O,mesitylene,Cc1cc(C)cc(C)c1,other
+SP180,NMP,CN1CCCC1=O,CB,Clc1ccccc1,other
+SP181,dimethyl adipate,COC(=O)CCCCC(=O)OC,methyl tert-butyl ether,COC(C)(C)C,other
+SP182,dimethyl adipate,COC(=O)CCCCC(=O)OC,chloroform,ClC(Cl)Cl,other
+SP183,dimethyl adipate,COC(=O)CCCCC(=O)OC,cyclohexanone,O=C1CCCCC1,other
+SP184,DMC,COC(=O)OC,o-xylene,Cc1ccccc1C,other
+SP185,DMC,COC(=O)OC,cyclohexanone,O=C1CCCCC1,other
+SP186,methyl tert-butyl ether,COC(C)(C)C,CTL_benzene,c1ccccc1,other
+SP187,CPME,COC1CCCC1,anisole,COc1ccccc1,green+green
+SP188,CPME,COC1CCCC1,CB,Clc1ccccc1,green+halo
+SP189,CPME,COC1CCCC1,o-dichlorobenzene,Clc1ccccc1Cl,green+halo
+SP190,anisole,COc1ccccc1,o-dichlorobenzene,Clc1ccccc1Cl,green+halo
+SP191,CTL_methanol,CO,toluene,Cc1ccccc1,other
+SP192,CTL_methanol,CO,cyclohexanone,O=C1CCCCC1,other
+SP193,DMSO,CS(C)=O,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP194,DMSO,CS(C)=O,chloroform,ClC(Cl)Cl,other
+SP195,DMSO,CS(C)=O,cyclohexanone,O=C1CCCCC1,other
+SP196,mesitylene,Cc1cc(C)cc(C)c1,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,other
+SP197,mesitylene,Cc1cc(C)cc(C)c1,chloroform,ClC(Cl)Cl,other
+SP198,mesitylene,Cc1cc(C)cc(C)c1,CB,Clc1ccccc1,other
+SP199,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,chloroform,ClC(Cl)Cl,other
+SP200,"1,2,4-trimethylbenzene",Cc1ccc(C)c(C)c1,CB,Clc1ccccc1,other

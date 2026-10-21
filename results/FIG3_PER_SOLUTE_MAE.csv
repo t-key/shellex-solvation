@@ -1,0 +1,192 @@
+subset,solute,method,method_key,curves,MAE,CI95_low,CI95_high,bootstrap_unit,bootstrap_replicates,bootstrap_seed
+excluding_indomethacin148,10h-phenothiazine,Direct COSMO,direct_COSMO,1,0.198723980665013,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,2D (frozen train9800),fingerprint_2d,1,0.202080705551112,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,Pair mean (train10640; unseen=zero),pair_mean_train10640,1,0.184337314302454,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,ShellEx,shellex,1,0.125746349759846,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,ShellEx-narrow,shellex_narrow,1,0.153947657519747,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,ShellEx-narrow + motifs,shellex_narrow_motifs,1,0.132066314016066,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,ShellEx (no fallback),shellex_no_fallback,1,0.125746349759846,,,curve within solute,1000,20261014
+excluding_indomethacin148,10h-phenothiazine,Zero excess,zero_excess,1,0.184337314302454,,,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,UNIFAC original,UNIFAC_original,100,0.0749259004270533,0.0614626270917998,0.0894591450511762,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,Direct COSMO,direct_COSMO,100,0.0582198905384481,0.0467414500876157,0.0708336800093246,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,2D (frozen train9800),fingerprint_2d,100,0.102462315164153,0.0862624706578989,0.119718109261668,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,Pair mean (train10640; unseen=zero),pair_mean_train10640,100,0.131468638177945,0.110656198710943,0.152787661836867,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,ShellEx,shellex,100,0.0933054126980685,0.0753692174199315,0.113935535017747,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,ShellEx-narrow,shellex_narrow,100,0.102181039631559,0.0863096727913737,0.119036591906487,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,ShellEx-narrow + motifs,shellex_narrow_motifs,100,0.113692065143162,0.0950265882129397,0.133538307191545,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,ShellEx (no fallback),shellex_no_fallback,100,0.080884613732426,0.0660678885310154,0.0971724554118774,curve within solute,1000,20261014
+excluding_indomethacin148,anthracene,Zero excess,zero_excess,100,0.130888174469245,0.109482238330657,0.152518948088872,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,UNIFAC original,UNIFAC_original,2,0.0382227917979622,0.0351821132529401,0.0412634703429843,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,Direct COSMO,direct_COSMO,2,0.0513595560372122,0.0436630658019785,0.059056046272446,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,2D (frozen train9800),fingerprint_2d,2,0.0508293288606796,0.0360096496136519,0.0656490081077073,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,Pair mean (train10640; unseen=zero),pair_mean_train10640,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,ShellEx,shellex,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,ShellEx-narrow,shellex_narrow,2,0.206978680396303,0.199822664723684,0.214134696068922,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,ShellEx-narrow + motifs,shellex_narrow_motifs,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,ShellEx (no fallback),shellex_no_fallback,2,0.195470863090432,0.184506518968283,0.206435207212582,curve within solute,1000,20261014
+excluding_indomethacin148,biphenyl,Zero excess,zero_excess,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,Direct COSMO,direct_COSMO,12,0.275037060121802,0.153281704099227,0.393548706071427,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,2D (frozen train9800),fingerprint_2d,12,0.259662414760977,0.153893181257966,0.392504236977267,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,Pair mean (train10640; unseen=zero),pair_mean_train10640,12,0.286427169887506,0.164743585768559,0.420762931083526,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,ShellEx,shellex,12,0.207207823537376,0.130788440276262,0.29264179602032,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,ShellEx-narrow,shellex_narrow,12,0.287232621321072,0.195770740479518,0.397198759673903,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,ShellEx-narrow + motifs,shellex_narrow_motifs,12,0.30989420647307,0.208308422769099,0.419420224827664,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,ShellEx (no fallback),shellex_no_fallback,12,0.206598314012118,0.130171400403984,0.291841989669686,curve within solute,1000,20261014
+excluding_indomethacin148,carbazole,Zero excess,zero_excess,12,0.286427169887506,0.164743585768559,0.420762931083526,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,UNIFAC original,UNIFAC_original,7,0.0207114400739567,0.0135222339053872,0.0277234033584607,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,Direct COSMO,direct_COSMO,7,0.0255603753143341,0.0183054693041545,0.0331126112048628,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,2D (frozen train9800),fingerprint_2d,7,0.0529618917506267,0.0343917858034666,0.0745109141146009,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,Pair mean (train10640; unseen=zero),pair_mean_train10640,7,0.0927349302656743,0.0539939844916184,0.126327326596702,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,ShellEx,shellex,7,0.034015104057272,0.0175718052325736,0.0497206807218121,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,ShellEx-narrow,shellex_narrow,7,0.0867726462019641,0.0622785705948372,0.115113142238519,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,ShellEx-narrow + motifs,shellex_narrow_motifs,7,0.0432958972578585,0.0222444883879956,0.062766069771031,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,ShellEx (no fallback),shellex_no_fallback,7,0.0427129775076217,0.0277897958535547,0.0572334774631074,curve within solute,1000,20261014
+excluding_indomethacin148,naphthalene,Zero excess,zero_excess,7,0.0929831900088128,0.0542422442347569,0.126890850534116,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,UNIFAC original,UNIFAC_original,11,0.0669440194875244,0.0319177784369027,0.103456453495333,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,Direct COSMO,direct_COSMO,11,0.0341234222518872,0.0200483636975588,0.0510027365908522,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,2D (frozen train9800),fingerprint_2d,11,0.059669648372707,0.0354791897077436,0.0872196422543869,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,11,0.0538999382418888,0.0271467300299764,0.0869288608899755,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,ShellEx,shellex,11,0.0355814316963321,0.0159265574896608,0.0584474592902409,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,ShellEx-narrow,shellex_narrow,11,0.0406246267294929,0.0234741352951464,0.0612901201314288,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,ShellEx-narrow + motifs,shellex_narrow_motifs,11,0.0227734661061513,0.01581404965792,0.0301807894448842,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,ShellEx (no fallback),shellex_no_fallback,11,0.0355814316963321,0.0159265574896608,0.0584474592902409,curve within solute,1000,20261014
+excluding_indomethacin148,phenanthrene,Zero excess,zero_excess,11,0.0610590804518853,0.0319300678861294,0.091414837646863,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,UNIFAC original,UNIFAC_original,12,0.175737739897952,0.126895827132966,0.223673805501148,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,Direct COSMO,direct_COSMO,12,0.0931069249420866,0.0627347276516849,0.121354837231676,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,2D (frozen train9800),fingerprint_2d,12,0.177185213468189,0.124187296047059,0.229631292328926,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,12,0.245529934900825,0.196729321010934,0.293261260924108,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,ShellEx,shellex,12,0.196464808994134,0.119050647846177,0.273397827206226,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,ShellEx-narrow,shellex_narrow,12,0.149900920552795,0.125637375502186,0.173536482646439,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,ShellEx-narrow + motifs,shellex_narrow_motifs,12,0.205545883689093,0.131157232135864,0.27636494568101,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,ShellEx (no fallback),shellex_no_fallback,12,0.0818943916599063,0.0540098949047531,0.109945306805141,curve within solute,1000,20261014
+excluding_indomethacin148,pyrene,Zero excess,zero_excess,12,0.237446517788319,0.180947922992819,0.289537263677296,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,Direct COSMO,direct_COSMO,3,0.132455081298542,0.0182301885518797,0.356710265600349,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,2D (frozen train9800),fingerprint_2d,3,0.129098245053203,0.0104722936554094,0.347948580136119,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,3,0.124582282424274,0.0080964821159279,0.355385435820839,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,ShellEx,shellex,3,0.138714748873882,0.0205333801984589,0.357252981654029,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,ShellEx-narrow,shellex_narrow,3,0.355870788221106,0.236782472116092,0.540184256866808,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,ShellEx-narrow + motifs,shellex_narrow_motifs,3,0.1523690543751,0.039918201249212,0.365916121405312,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,ShellEx (no fallback),shellex_no_fallback,3,0.138714748873882,0.0205333801984589,0.357252981654029,curve within solute,1000,20261014
+excluding_indomethacin148,thianthrene,Zero excess,zero_excess,3,0.124582282424274,0.0080964821159279,0.355385435820839,curve within solute,1000,20261014
+common132,anthracene,UNIFAC original,UNIFAC_original,100,0.0749259004270533,0.0614626270917998,0.0894591450511762,curve within solute,1000,20261014
+common132,anthracene,Direct COSMO,direct_COSMO,100,0.0582198905384481,0.0467414500876157,0.0708336800093246,curve within solute,1000,20261014
+common132,anthracene,2D (frozen train9800),fingerprint_2d,100,0.102462315164153,0.0862624706578989,0.119718109261668,curve within solute,1000,20261014
+common132,anthracene,Pair mean (train10640; unseen=zero),pair_mean_train10640,100,0.131468638177945,0.110656198710943,0.152787661836867,curve within solute,1000,20261014
+common132,anthracene,ShellEx,shellex,100,0.0933054126980685,0.0753692174199315,0.113935535017747,curve within solute,1000,20261014
+common132,anthracene,ShellEx-narrow,shellex_narrow,100,0.102181039631559,0.0863096727913737,0.119036591906487,curve within solute,1000,20261014
+common132,anthracene,ShellEx-narrow + motifs,shellex_narrow_motifs,100,0.113692065143162,0.0950265882129397,0.133538307191545,curve within solute,1000,20261014
+common132,anthracene,ShellEx (no fallback),shellex_no_fallback,100,0.080884613732426,0.0660678885310154,0.0971724554118774,curve within solute,1000,20261014
+common132,anthracene,Zero excess,zero_excess,100,0.130888174469245,0.109482238330657,0.152518948088872,curve within solute,1000,20261014
+common132,biphenyl,UNIFAC original,UNIFAC_original,2,0.0382227917979622,0.0351821132529401,0.0412634703429843,curve within solute,1000,20261014
+common132,biphenyl,Direct COSMO,direct_COSMO,2,0.0513595560372122,0.0436630658019785,0.059056046272446,curve within solute,1000,20261014
+common132,biphenyl,2D (frozen train9800),fingerprint_2d,2,0.0508293288606796,0.0360096496136519,0.0656490081077073,curve within solute,1000,20261014
+common132,biphenyl,Pair mean (train10640; unseen=zero),pair_mean_train10640,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+common132,biphenyl,ShellEx,shellex,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+common132,biphenyl,ShellEx-narrow,shellex_narrow,2,0.206978680396303,0.199822664723684,0.214134696068922,curve within solute,1000,20261014
+common132,biphenyl,ShellEx-narrow + motifs,shellex_narrow_motifs,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+common132,biphenyl,ShellEx (no fallback),shellex_no_fallback,2,0.195470863090432,0.184506518968283,0.206435207212582,curve within solute,1000,20261014
+common132,biphenyl,Zero excess,zero_excess,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+common132,naphthalene,UNIFAC original,UNIFAC_original,7,0.0207114400739567,0.0135222339053872,0.0277234033584607,curve within solute,1000,20261014
+common132,naphthalene,Direct COSMO,direct_COSMO,7,0.0255603753143341,0.0183054693041545,0.0331126112048628,curve within solute,1000,20261014
+common132,naphthalene,2D (frozen train9800),fingerprint_2d,7,0.0529618917506267,0.0343917858034666,0.0745109141146009,curve within solute,1000,20261014
+common132,naphthalene,Pair mean (train10640; unseen=zero),pair_mean_train10640,7,0.0927349302656743,0.0539939844916184,0.126327326596702,curve within solute,1000,20261014
+common132,naphthalene,ShellEx,shellex,7,0.034015104057272,0.0175718052325736,0.0497206807218121,curve within solute,1000,20261014
+common132,naphthalene,ShellEx-narrow,shellex_narrow,7,0.0867726462019641,0.0622785705948372,0.115113142238519,curve within solute,1000,20261014
+common132,naphthalene,ShellEx-narrow + motifs,shellex_narrow_motifs,7,0.0432958972578585,0.0222444883879956,0.062766069771031,curve within solute,1000,20261014
+common132,naphthalene,ShellEx (no fallback),shellex_no_fallback,7,0.0427129775076217,0.0277897958535547,0.0572334774631074,curve within solute,1000,20261014
+common132,naphthalene,Zero excess,zero_excess,7,0.0929831900088128,0.0542422442347569,0.126890850534116,curve within solute,1000,20261014
+common132,phenanthrene,UNIFAC original,UNIFAC_original,11,0.0669440194875244,0.0319177784369027,0.103456453495333,curve within solute,1000,20261014
+common132,phenanthrene,Direct COSMO,direct_COSMO,11,0.0341234222518872,0.0200483636975588,0.0510027365908522,curve within solute,1000,20261014
+common132,phenanthrene,2D (frozen train9800),fingerprint_2d,11,0.059669648372707,0.0354791897077436,0.0872196422543869,curve within solute,1000,20261014
+common132,phenanthrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,11,0.0538999382418888,0.0271467300299764,0.0869288608899755,curve within solute,1000,20261014
+common132,phenanthrene,ShellEx,shellex,11,0.0355814316963321,0.0159265574896608,0.0584474592902409,curve within solute,1000,20261014
+common132,phenanthrene,ShellEx-narrow,shellex_narrow,11,0.0406246267294929,0.0234741352951464,0.0612901201314288,curve within solute,1000,20261014
+common132,phenanthrene,ShellEx-narrow + motifs,shellex_narrow_motifs,11,0.0227734661061513,0.01581404965792,0.0301807894448842,curve within solute,1000,20261014
+common132,phenanthrene,ShellEx (no fallback),shellex_no_fallback,11,0.0355814316963321,0.0159265574896608,0.0584474592902409,curve within solute,1000,20261014
+common132,phenanthrene,Zero excess,zero_excess,11,0.0610590804518853,0.0319300678861294,0.091414837646863,curve within solute,1000,20261014
+common132,pyrene,UNIFAC original,UNIFAC_original,12,0.175737739897952,0.126895827132966,0.223673805501148,curve within solute,1000,20261014
+common132,pyrene,Direct COSMO,direct_COSMO,12,0.0931069249420866,0.0627347276516849,0.121354837231676,curve within solute,1000,20261014
+common132,pyrene,2D (frozen train9800),fingerprint_2d,12,0.177185213468189,0.124187296047059,0.229631292328926,curve within solute,1000,20261014
+common132,pyrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,12,0.245529934900825,0.196729321010934,0.293261260924108,curve within solute,1000,20261014
+common132,pyrene,ShellEx,shellex,12,0.196464808994134,0.119050647846177,0.273397827206226,curve within solute,1000,20261014
+common132,pyrene,ShellEx-narrow,shellex_narrow,12,0.149900920552795,0.125637375502186,0.173536482646439,curve within solute,1000,20261014
+common132,pyrene,ShellEx-narrow + motifs,shellex_narrow_motifs,12,0.205545883689093,0.131157232135864,0.27636494568101,curve within solute,1000,20261014
+common132,pyrene,ShellEx (no fallback),shellex_no_fallback,12,0.0818943916599063,0.0540098949047531,0.109945306805141,curve within solute,1000,20261014
+common132,pyrene,Zero excess,zero_excess,12,0.237446517788319,0.180947922992819,0.289537263677296,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,Direct COSMO,direct_COSMO,3,0.404547246994746,0.372778067294061,0.46807764561996,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,2D (frozen train9800),fingerprint_2d,3,0.646237013570556,0.558924207226738,0.798996236096527,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,Pair mean (train10640; unseen=zero),pair_mean_train10640,3,0.657814746259624,0.523018856731472,0.874214299535804,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,ShellEx,shellex,3,0.619921655296114,0.48774389503609,0.874214299535804,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,ShellEx-narrow,shellex_narrow,3,0.632918658830985,0.573491116148853,0.712718040626915,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,ShellEx-narrow + motifs,shellex_narrow_motifs,3,0.60377435482254,0.435193568765463,0.874214299535804,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,ShellEx (no fallback),shellex_no_fallback,3,0.507727249877264,0.48774389503609,0.537631083279255,curve within solute,1000,20261014
+all151,1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1h-indole-3-acetic acid,Zero excess,zero_excess,3,0.687845794761394,0.576211082511597,0.874214299535804,curve within solute,1000,20261014
+all151,10h-phenothiazine,Direct COSMO,direct_COSMO,1,0.198723980665013,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,2D (frozen train9800),fingerprint_2d,1,0.202080705551112,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,Pair mean (train10640; unseen=zero),pair_mean_train10640,1,0.184337314302454,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,ShellEx,shellex,1,0.125746349759846,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,ShellEx-narrow,shellex_narrow,1,0.153947657519747,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,ShellEx-narrow + motifs,shellex_narrow_motifs,1,0.132066314016066,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,ShellEx (no fallback),shellex_no_fallback,1,0.125746349759846,,,curve within solute,1000,20261014
+all151,10h-phenothiazine,Zero excess,zero_excess,1,0.184337314302454,,,curve within solute,1000,20261014
+all151,anthracene,UNIFAC original,UNIFAC_original,100,0.0749259004270533,0.0614626270917998,0.0894591450511762,curve within solute,1000,20261014
+all151,anthracene,Direct COSMO,direct_COSMO,100,0.0582198905384481,0.0467414500876157,0.0708336800093246,curve within solute,1000,20261014
+all151,anthracene,2D (frozen train9800),fingerprint_2d,100,0.102462315164153,0.0862624706578989,0.119718109261668,curve within solute,1000,20261014
+all151,anthracene,Pair mean (train10640; unseen=zero),pair_mean_train10640,100,0.131468638177945,0.110656198710943,0.152787661836867,curve within solute,1000,20261014
+all151,anthracene,ShellEx,shellex,100,0.0933054126980685,0.0753692174199315,0.113935535017747,curve within solute,1000,20261014
+all151,anthracene,ShellEx-narrow,shellex_narrow,100,0.102181039631559,0.0863096727913737,0.119036591906487,curve within solute,1000,20261014
+all151,anthracene,ShellEx-narrow + motifs,shellex_narrow_motifs,100,0.113692065143162,0.0950265882129397,0.133538307191545,curve within solute,1000,20261014
+all151,anthracene,ShellEx (no fallback),shellex_no_fallback,100,0.080884613732426,0.0660678885310154,0.0971724554118774,curve within solute,1000,20261014
+all151,anthracene,Zero excess,zero_excess,100,0.130888174469245,0.109482238330657,0.152518948088872,curve within solute,1000,20261014
+all151,biphenyl,UNIFAC original,UNIFAC_original,2,0.0382227917979622,0.0351821132529401,0.0412634703429843,curve within solute,1000,20261014
+all151,biphenyl,Direct COSMO,direct_COSMO,2,0.0513595560372122,0.0436630658019785,0.059056046272446,curve within solute,1000,20261014
+all151,biphenyl,2D (frozen train9800),fingerprint_2d,2,0.0508293288606796,0.0360096496136519,0.0656490081077073,curve within solute,1000,20261014
+all151,biphenyl,Pair mean (train10640; unseen=zero),pair_mean_train10640,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+all151,biphenyl,ShellEx,shellex,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+all151,biphenyl,ShellEx-narrow,shellex_narrow,2,0.206978680396303,0.199822664723684,0.214134696068922,curve within solute,1000,20261014
+all151,biphenyl,ShellEx-narrow + motifs,shellex_narrow_motifs,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+all151,biphenyl,ShellEx (no fallback),shellex_no_fallback,2,0.195470863090432,0.184506518968283,0.206435207212582,curve within solute,1000,20261014
+all151,biphenyl,Zero excess,zero_excess,2,0.0367824154370889,0.0219307572375109,0.0516340736366669,curve within solute,1000,20261014
+all151,carbazole,Direct COSMO,direct_COSMO,12,0.275037060121802,0.153281704099227,0.393548706071427,curve within solute,1000,20261014
+all151,carbazole,2D (frozen train9800),fingerprint_2d,12,0.259662414760977,0.153893181257966,0.392504236977267,curve within solute,1000,20261014
+all151,carbazole,Pair mean (train10640; unseen=zero),pair_mean_train10640,12,0.286427169887506,0.164743585768559,0.420762931083526,curve within solute,1000,20261014
+all151,carbazole,ShellEx,shellex,12,0.207207823537376,0.130788440276262,0.29264179602032,curve within solute,1000,20261014
+all151,carbazole,ShellEx-narrow,shellex_narrow,12,0.287232621321072,0.195770740479518,0.397198759673903,curve within solute,1000,20261014
+all151,carbazole,ShellEx-narrow + motifs,shellex_narrow_motifs,12,0.30989420647307,0.208308422769099,0.419420224827664,curve within solute,1000,20261014
+all151,carbazole,ShellEx (no fallback),shellex_no_fallback,12,0.206598314012118,0.130171400403984,0.291841989669686,curve within solute,1000,20261014
+all151,carbazole,Zero excess,zero_excess,12,0.286427169887506,0.164743585768559,0.420762931083526,curve within solute,1000,20261014
+all151,naphthalene,UNIFAC original,UNIFAC_original,7,0.0207114400739567,0.0135222339053872,0.0277234033584607,curve within solute,1000,20261014
+all151,naphthalene,Direct COSMO,direct_COSMO,7,0.0255603753143341,0.0183054693041545,0.0331126112048628,curve within solute,1000,20261014
+all151,naphthalene,2D (frozen train9800),fingerprint_2d,7,0.0529618917506267,0.0343917858034666,0.0745109141146009,curve within solute,1000,20261014
+all151,naphthalene,Pair mean (train10640; unseen=zero),pair_mean_train10640,7,0.0927349302656743,0.0539939844916184,0.126327326596702,curve within solute,1000,20261014
+all151,naphthalene,ShellEx,shellex,7,0.034015104057272,0.0175718052325736,0.0497206807218121,curve within solute,1000,20261014
+all151,naphthalene,ShellEx-narrow,shellex_narrow,7,0.0867726462019641,0.0622785705948372,0.115113142238519,curve within solute,1000,20261014
+all151,naphthalene,ShellEx-narrow + motifs,shellex_narrow_motifs,7,0.0432958972578585,0.0222444883879956,0.062766069771031,curve within solute,1000,20261014
+all151,naphthalene,ShellEx (no fallback),shellex_no_fallback,7,0.0427129775076217,0.0277897958535547,0.0572334774631074,curve within solute,1000,20261014
+all151,naphthalene,Zero excess,zero_excess,7,0.0929831900088128,0.0542422442347569,0.126890850534116,curve within solute,1000,20261014
+all151,phenanthrene,UNIFAC original,UNIFAC_original,11,0.0669440194875244,0.0319177784369027,0.103456453495333,curve within solute,1000,20261014
+all151,phenanthrene,Direct COSMO,direct_COSMO,11,0.0341234222518872,0.0200483636975588,0.0510027365908522,curve within solute,1000,20261014
+all151,phenanthrene,2D (frozen train9800),fingerprint_2d,11,0.059669648372707,0.0354791897077436,0.0872196422543869,curve within solute,1000,20261014
+all151,phenanthrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,11,0.0538999382418888,0.0271467300299764,0.0869288608899755,curve within solute,1000,20261014
+all151,phenanthrene,ShellEx,shellex,11,0.0355814316963321,0.0159265574896608,0.0584474592902409,curve within solute,1000,20261014
+all151,phenanthrene,ShellEx-narrow,shellex_narrow,11,0.0406246267294929,0.0234741352951464,0.0612901201314288,curve within solute,1000,20261014
+all151,phenanthrene,ShellEx-narrow + motifs,shellex_narrow_motifs,11,0.0227734661061513,0.01581404965792,0.0301807894448842,curve within solute,1000,20261014
+all151,phenanthrene,ShellEx (no fallback),shellex_no_fallback,11,0.0355814316963321,0.0159265574896608,0.0584474592902409,curve within solute,1000,20261014
+all151,phenanthrene,Zero excess,zero_excess,11,0.0610590804518853,0.0319300678861294,0.091414837646863,curve within solute,1000,20261014
+all151,pyrene,UNIFAC original,UNIFAC_original,12,0.175737739897952,0.126895827132966,0.223673805501148,curve within solute,1000,20261014
+all151,pyrene,Direct COSMO,direct_COSMO,12,0.0931069249420866,0.0627347276516849,0.121354837231676,curve within solute,1000,20261014
+all151,pyrene,2D (frozen train9800),fingerprint_2d,12,0.177185213468189,0.124187296047059,0.229631292328926,curve within solute,1000,20261014
+all151,pyrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,12,0.245529934900825,0.196729321010934,0.293261260924108,curve within solute,1000,20261014
+all151,pyrene,ShellEx,shellex,12,0.196464808994134,0.119050647846177,0.273397827206226,curve within solute,1000,20261014
+all151,pyrene,ShellEx-narrow,shellex_narrow,12,0.149900920552795,0.125637375502186,0.173536482646439,curve within solute,1000,20261014
+all151,pyrene,ShellEx-narrow + motifs,shellex_narrow_motifs,12,0.205545883689093,0.131157232135864,0.27636494568101,curve within solute,1000,20261014
+all151,pyrene,ShellEx (no fallback),shellex_no_fallback,12,0.0818943916599063,0.0540098949047531,0.109945306805141,curve within solute,1000,20261014
+all151,pyrene,Zero excess,zero_excess,12,0.237446517788319,0.180947922992819,0.289537263677296,curve within solute,1000,20261014
+all151,thianthrene,Direct COSMO,direct_COSMO,3,0.132455081298542,0.0182301885518797,0.356710265600349,curve within solute,1000,20261014
+all151,thianthrene,2D (frozen train9800),fingerprint_2d,3,0.129098245053203,0.0104722936554094,0.347948580136119,curve within solute,1000,20261014
+all151,thianthrene,Pair mean (train10640; unseen=zero),pair_mean_train10640,3,0.124582282424274,0.0080964821159279,0.355385435820839,curve within solute,1000,20261014
+all151,thianthrene,ShellEx,shellex,3,0.138714748873882,0.0205333801984589,0.357252981654029,curve within solute,1000,20261014
+all151,thianthrene,ShellEx-narrow,shellex_narrow,3,0.355870788221106,0.236782472116092,0.540184256866808,curve within solute,1000,20261014
+all151,thianthrene,ShellEx-narrow + motifs,shellex_narrow_motifs,3,0.1523690543751,0.039918201249212,0.365916121405312,curve within solute,1000,20261014
+all151,thianthrene,ShellEx (no fallback),shellex_no_fallback,3,0.138714748873882,0.0205333801984589,0.357252981654029,curve within solute,1000,20261014
+all151,thianthrene,Zero excess,zero_excess,3,0.124582282424274,0.0080964821159279,0.355385435820839,curve within solute,1000,20261014
